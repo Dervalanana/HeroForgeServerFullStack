@@ -7,4 +7,6 @@ from .skill import Skill
 from .classSkill import ClassSkill
 from .character import Character
 from .level import Level
-from .levelSkills import LevelSkills
+from .levelSkill import LevelSkill
+from .characterFeat import CharacterFeat
+from .classLevel import ClassLevel

@@ -1,12 +1,8 @@
-from tkinter import CASCADE
 from django.db import models
 
-from HeroForgeApi.models.level import Level
-from HeroForgeApi.models.skill import Skill
-
-class LevelSkills(models.model):
-    levelId = models.ForeignKey(Level, on_delete=CASCADE)
-    skillId = models.ForeignKey(Skill, on_delete=CASCADE)
+class LevelSkill(models.Model):
+    levelId = models.ForeignKey("Level", on_delete=models.CASCADE)
+    skillId = models.ForeignKey("Skill", on_delete=models.CASCADE)
     points = models.PositiveSmallIntegerField(default = 0)
-    multiTypeName = models.CharField(blank=True)
+    multiTypeName = models.CharField(max_length=3, blank=True)
     

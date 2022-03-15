@@ -1,0 +1,14 @@
+[
+    {
+        "model": "HeroForgeApi.characterfeat",
+        "pk": 1,
+        "fields": {
+            "featId" : 1,
+            "characterId" : 1,
+            "specificOption" : null,
+            "optionSource" : "",
+            "source" : "Race",
+            "sourceId" : 1
+        }
+    }
+]

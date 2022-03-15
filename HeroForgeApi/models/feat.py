@@ -1,6 +1,5 @@
 from django.db import models
 
-from HeroForgeApi.models.classs import Classs
 
 class Feat(models.Model):
     name = models.CharField(max_length=55)
@@ -16,8 +15,8 @@ class Feat(models.Model):
     willPR= models.PositiveSmallIntegerField(blank=True, null=True)
     babPR= models.PositiveSmallIntegerField(blank=True, null=True)
     classLevelPR= models.PositiveSmallIntegerField(blank=True, null=True)
-    classPR= models.ForeignKey(Classs, models.SET_NULL, blank=True, null=True)
-    feat1PR= models.ForeignKey('self', models.SET_NULL, blank=True, null=True)
-    feat2PR= models.ForeignKey('self', models.SET_NULL, blank=True, null=True)
-    feat3PR= models.ForeignKey('self', models.SET_NULL, blank=True, null=True)
-    feat4PR= models.ForeignKey('self', models.SET_NULL, blank=True, null=True)
+    classPR= models.ForeignKey("Classs", models.SET_NULL, blank=True, null=True)
+    feat1PR= models.ForeignKey('self', models.SET_NULL, blank=True, null=True, related_name='+')
+    feat2PR= models.ForeignKey('self', models.SET_NULL, blank=True, null=True, related_name='+')
+    feat3PR= models.ForeignKey('self', models.SET_NULL, blank=True, null=True, related_name='+')
+    feat4PR= models.ForeignKey('self', models.SET_NULL, blank=True, null=True, related_name='+')

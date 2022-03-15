@@ -1,9 +1,6 @@
-from tkinter import CASCADE
 from django.db import models
-from HeroForgeApi.models.character import Character
 
-from HeroForgeApi.models.equipment import Equipment
 
-class Equipped(models.model):
-    equipmentId= models.ForeignKey(Equipment, on_delete=CASCADE)
-    characterId= models.ForeignKey(Character, on_delete=CASCADE)
+class Equipped(models.Model):
+    equipmentId= models.ForeignKey("Equipment", on_delete=models.CASCADE)
+    characterId= models.ForeignKey("Character", on_delete=models.CASCADE)

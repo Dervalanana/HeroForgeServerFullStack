@@ -1,0 +1,10 @@
+[
+    {
+        "model": "HeroForgeApi.featSet",
+        "pk": 1,
+        "fields": {
+            "name": "Fighter Bonus Feat",
+            "featOptions": []
+        }
+    }
+]

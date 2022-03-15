@@ -1,0 +1,452 @@
+[
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 1,
+        "fields": {
+            "name": "Appraise",
+            "attribute": "int",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 2,
+        "fields": {
+            "name": "Balance",
+            "attribute": "dex",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 3,
+        "fields": {
+            "name": "Bluff",
+            "attribute": "cha",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 4,
+        "fields": {
+            "name": "Climb",
+            "attribute": "int",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 5,
+        "fields": {
+            "name": "Concentration",
+            "attribute": "con",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 6,
+        "fields": {
+            "name": "Craft",
+            "attribute": "int",
+            "trainedOnly": false,
+            "multiType": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 7,
+        "fields": {
+            "name": "Decipher Script",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 8,
+        "fields": {
+            "name": "Diplomacy",
+            "attribute": "cha",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 9,
+        "fields": {
+            "name": "Disable Device",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 10,
+        "fields": {
+            "name": "Disguise",
+            "attribute": "cha",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 11,
+        "fields": {
+            "name": "Escape Artist",
+            "attribute": "dex",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 12,
+        "fields": {
+            "name": "Forgery",
+            "attribute": "int",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 13,
+        "fields": {
+            "name": "Gather Information",
+            "attribute": "cha",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 14,
+        "fields": {
+            "name": "Handle Animal",
+            "attribute": "cha",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 15,
+        "fields": {
+            "name": "Heal",
+            "attribute": "wis",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 16,
+        "fields": {
+            "name": "Hide",
+            "attribute": "dex",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 17,
+        "fields": {
+            "name": "Intimidate",
+            "attribute": "cha",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 18,
+        "fields": {
+            "name": "Jump",
+            "attribute": "str",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 19,
+        "fields": {
+            "name": "Knowledge (Arcana)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 20,
+        "fields": {
+            "name": "Knowledge (Architecture and Engineering)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 21,
+        "fields": {
+            "name": "Knowledge (Dungeoneering)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 22,
+        "fields": {
+            "name": "Knowledge (Geography)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 23,
+        "fields": {
+            "name": "Knowledge (History)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 24,
+        "fields": {
+            "name": "Knowledge (local)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 25,
+        "fields": {
+            "name": "Knowledge (Nature)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 26,
+        "fields": {
+            "name": "Knowledge (Nobility and Royalty)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 27,
+        "fields": {
+            "name": "Knowledge (Religion)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 28,
+        "fields": {
+            "name": "Knowledge (The Planes)",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 29,
+        "fields": {
+            "name": "Listen",
+            "attribute": "wis",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 30,
+        "fields": {
+            "name": "Move Silently",
+            "attribute": "dex",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 31,
+        "fields": {
+            "name": "Open Lock",
+            "attribute": "dex",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 32,
+        "fields": {
+            "name": "Perform",
+            "attribute": "cha",
+            "trainedOnly": false,
+            "multiType": 3
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 33,
+        "fields": {
+            "name": "Profession",
+            "attribute": "wis",
+            "trainedOnly": true,
+            "multiType": 4
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 34,
+        "fields": {
+            "name": "Ride",
+            "attribute": "dex",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 35,
+        "fields": {
+            "name": "Search",
+            "attribute": "int",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 36,
+        "fields": {
+            "name": "Sense Motive",
+            "attribute": "wis",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 37,
+        "fields": {
+            "name": "Sleight of Hand",
+            "attribute": "dex",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 38,
+        "fields": {
+            "name": "Speak Language",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 39,
+        "fields": {
+            "name": "Spellcraft",
+            "attribute": "int",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 40,
+        "fields": {
+            "name": "Spot",
+            "attribute": "wis",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 41,
+        "fields": {
+            "name": "Survival",
+            "attribute": "wis",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 42,
+        "fields": {
+            "name": "Swim",
+            "attribute": "str",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 43,
+        "fields": {
+            "name": "Tumble",
+            "attribute": "dex",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 44,
+        "fields": {
+            "name": "Use Magic Device",
+            "attribute": "cha",
+            "trainedOnly": true,
+            "multiType": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.Skill",
+        "pk": 45,
+        "fields": {
+            "name": "Use Rope",
+            "attribute": "dex",
+            "trainedOnly": false,
+            "multiType": 0
+        }
+    }
+]

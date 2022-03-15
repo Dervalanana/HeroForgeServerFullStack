@@ -1,10 +1,9 @@
 from django.db import models
+from HeroForgeApi.models.skill import Skill
 
-from HeroForgeApi.models import classSkill
-from HeroForgeApi.models import Skill, ClassSkill
 
 class Classs(models.Model):
     name = models.CharField(max_length=55)
-    skillPoints = models.CharField()
-    HD = models.CharField()
-    classSkills = models.ManyToManyField(Skill, ClassSkill)
+    skillPoints = models.PositiveSmallIntegerField()
+    HD = models.PositiveSmallIntegerField()
+    classSkills = models.ManyToManyField(Skill, through="ClassSkill")

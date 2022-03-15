@@ -1,0 +1,75 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password":"pbkdf2_sha256$320000$JtdmzEpwuN4CCt0lnYlemd$qWlSNWBdwvmIQQgR05CejpDLOdEu9vn5X2azxY+AQaw=",
+            "username":"sean.derevjanik@gmail.com",
+            "last_name":"Derevjanik",
+            "first_name":"Sean",
+            "is_staff":1
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password":"pbkdf2_sha256$320000$wGLA4hIjh6wavjOe7I41Kr$tXU/G4n6/3v6+2eXU/z6PNBx57VazBGWwDx0NuVw3PQ=",
+            "username":"test@test",
+            "last_name":"test",
+            "first_name":"test"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password":"pbkdf2_sha256$320000$5WZfGujHHf5HoG7OalocJF$1E066oLMq3oklNeyeLLclGjwHkFfoGbXb4K+5cQkqn8=",
+            "username":"moiraine@damodred.gov",
+            "last_name":"Damodred",
+            "first_name":"Moiraine"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password":"pbkdf2_sha256$320000$RqTSRjcW9gP4vNqsoMtn4d$cH0Rxwy8NhlOzG2BgXWCmPSGURMpDjA81+d6j7tHuhI=",
+            "username":"dragon@reborn",
+            "last_name":"althor",
+            "first_name":"rand"
+        }
+    },
+    {
+        "model": "authtoken.token",
+        "pk": 1,
+        "fields": {
+            "key":"bf453b1868b5178b7475f8179c148461b8924693",
+            "userId":1
+        }
+    },
+    {
+        "model": "authtoken.token",
+        "pk": 2,
+        "fields": {
+            "key":"0128a9a047017f024154a3908f2d09d0759ac83a",
+            "userId":2
+        }
+    },
+    {
+        "model": "authtoken.token",
+        "pk": 3,
+        "fields": {
+            "key":"d49494fb7d893000cef83ff01f9035b374a4f6fb",
+            "userId":3
+        }
+    },
+    {
+        "model": "authtoken.token",
+        "pk": 4,
+        "fields": {
+            "key":"c4706cea071a7c610a7b5e80a11fa3a6614c5c18",
+            "userId":4
+        }
+    }
+]

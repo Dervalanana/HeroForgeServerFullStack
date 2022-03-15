@@ -1,0 +1,32 @@
+[
+    {
+        "model": "HeroForgeApi.proficiency",
+        "pk": 1,
+        "fields": {
+            "equipmentId": 1,
+            "characterId": 1,
+            "source": "Race",
+            "sourceId": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.proficiency",
+        "pk": 1,
+        "fields": {
+            "equipmentId": 2,
+            "characterId": 1,
+            "source": "Race",
+            "sourceId": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.proficiency",
+        "pk": 1,
+        "fields": {
+            "equipmentId": 3,
+            "characterId": 1,
+            "source": "Race",
+            "sourceId": 1
+        }
+    }
+]

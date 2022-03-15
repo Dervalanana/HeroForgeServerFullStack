@@ -1,0 +1,47 @@
+[
+    {
+      "model": "HeroForgeApi.race",
+      "pk": 0,
+      "fields": {
+        "racialBonus": "",
+        "racialPenalty": "",
+        "name": "",
+        "special": "",
+        "speed": 0,
+        "altSpeed": 0,
+        "altSpeedType": "",
+        "featId": null,
+        "featSetId":null
+      }
+    },
+    {
+      "model": "HeroForgeApi.race",
+      "pk": 1,
+      "fields": {
+        "racialBonus": "",
+        "racialPenalty": "",
+        "name": "Human",
+        "special": "+1 skill point, +1 feat at level 1",
+        "speed": 30,
+        "altSpeed": 0,
+        "altSpeedType": "",
+        "featId": null,
+        "featSetId":null
+      }
+    },
+    {
+      "model": "HeroForgeApi.race",
+      "pk": 2,
+      "fields": {
+        "racialBonus": "dex",
+        "racialPenalty": "con",
+        "name": "Elf",
+        "special": "immune to paralysis and sleep, proficient with racial weapons, trance instead of sleep",
+        "speed": 30,
+        "altSpeed": 0,
+        "altSpeedType": "",
+        "featId": null,
+        "featSetId":null
+      }
+    }
+    ]
