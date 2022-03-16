@@ -1,0 +1,1 @@
+select * from HeroForgeApi_skill

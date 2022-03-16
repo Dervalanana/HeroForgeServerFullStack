@@ -1,0 +1,3602 @@
+[
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 1,
+        "fields": {
+            "classId": 0,
+            "level": 1,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 2,
+            "Ref": 2,
+            "Will": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 2,
+        "fields": {
+            "classId": 0,
+            "level": 2,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 3,
+        "fields": {
+            "classId": 0,
+            "level": 3,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 4,
+        "fields": {
+            "classId": 0,
+            "level": 4,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 5,
+        "fields": {
+            "classId": 0,
+            "level": 5,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 6,
+        "fields": {
+            "classId": 0,
+            "level": 6,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 7,
+        "fields": {
+            "classId": 0,
+            "level": 7,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 8,
+        "fields": {
+            "classId": 0,
+            "level": 8,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 9,
+        "fields": {
+            "classId": 0,
+            "level": 9,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 10,
+        "fields": {
+            "classId": 0,
+            "level": 10,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 11,
+        "fields": {
+            "classId": 0,
+            "level": 11,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 12,
+        "fields": {
+            "classId": 0,
+            "level": 12,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 13,
+        "fields": {
+            "classId": 0,
+            "level": 13,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 14,
+        "fields": {
+            "classId": 0,
+            "level": 14,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 15,
+        "fields": {
+            "classId": 0,
+            "level": 15,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 16,
+        "fields": {
+            "classId": 0,
+            "level": 16,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 17,
+        "fields": {
+            "classId": 0,
+            "level": 17,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 18,
+        "fields": {
+            "classId": 0,
+            "level": 18,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 19,
+        "fields": {
+            "classId": 0,
+            "level": 19,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 20,
+        "fields": {
+            "classId": 0,
+            "level": 20,
+            "features": "you have the default class selected. dont mess with this",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 21,
+        "fields": {
+            "classId": 1,
+            "level": 1,
+            "features": "Fast Movement (Ex): Land base speed +10 feet, medium armor or medium load max\n\nIlliterate\n\nRage (ex): +4 Str / Con +2 morale to will, -2 AC. 1 / day + 1/4 levels. 3 + Con Mod rounds. Become fatigued at the end",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 2,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 22,
+        "fields": {
+            "classId": 1,
+            "level": 2,
+            "features": "Uncanny Dodge (ex): Retain dex bonus to AC when flat-footed or against invisible foes. Does not apply if imobilized",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 23,
+        "fields": {
+            "classId": 1,
+            "level": 3,
+            "features": "Trap Sense (ex): Dodge bonus to AC and untyped bonus to Reflex. + 1/3 Levels",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 24,
+        "fields": {
+            "classId": 1,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 25,
+        "fields": {
+            "classId": 1,
+            "level": 5,
+            "features": "Improved Uncanny Dodge (ex): Cannot be flanked. Can only be sneak attacked by someone with (levels + 4) rogue levels",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 26,
+        "fields": {
+            "classId": 1,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 27,
+        "fields": {
+            "classId": 1,
+            "level": 7,
+            "features": "Damage Reduction (ex): DR (1 + (level - 7)/3)",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 28,
+        "fields": {
+            "classId": 1,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 29,
+        "fields": {
+            "classId": 1,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 30,
+        "fields": {
+            "classId": 1,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 31,
+        "fields": {
+            "classId": 1,
+            "level": 11,
+            "features": "Greater Rage (ex): Bonuses increase to +6 Str / Con and +3 Morale bonus to Will",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 32,
+        "fields": {
+            "classId": 1,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 33,
+        "fields": {
+            "classId": 1,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 34,
+        "fields": {
+            "classId": 1,
+            "level": 14,
+            "features": "Indomitable Will (Ex): During rage, an additional +4 to Will against enchantment.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 35,
+        "fields": {
+            "classId": 1,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 36,
+        "fields": {
+            "classId": 1,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 37,
+        "fields": {
+            "classId": 1,
+            "level": 17,
+            "features": "Tireless Rage (Ex): no longer become fatigued at the end of rage",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 38,
+        "fields": {
+            "classId": 1,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 39,
+        "fields": {
+            "classId": 1,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 40,
+        "fields": {
+            "classId": 1,
+            "level": 20,
+            "features": "Mighty Rage (ex): Rage bonuses increase to +8 to Str / Con and +4 morale bonus to will",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 41,
+        "fields": {
+            "classId": 2,
+            "level": 1,
+            "features": "Bardic Knowledge (ex): (level + int mod) for miscellaneous knowledge.\n\nBardic Music: (level) times / day.\nCountersong (Su): Perform 3 ranks miniumum. use perform check in place of saves against sound dependent abilities for creatures within 30' for up to 10 rounds.\nFasciante (Sp): Perform rank 3 minumum. Fascinate 1 + ((level-1)/3) creatures within 90'. Will save = perform check. 24 hr lockout. Effect last 1 round / bard level\nInspire Courage (Su): Effect lasts for duration + 5 rounds. +1 morale bonus against charm and fear, +1 morale to attacks and damage roles. increases at 8 and every 6 after. Mind-affecting",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 2,
+            "Will": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 42,
+        "fields": {
+            "classId": 2,
+            "level": 2,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 43,
+        "fields": {
+            "classId": 2,
+            "level": 3,
+            "features": "Inspire Competence (Su): Perform 6 ranks min. +2 competence to an ally within 30' on a particular skill. Duration, concentration, up to 2 minutes.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 44,
+        "fields": {
+            "classId": 2,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 45,
+        "fields": {
+            "classId": 2,
+            "level": 5,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 46,
+        "fields": {
+            "classId": 2,
+            "level": 6,
+            "features": "Suggestion (Sp): On a fascinated target, can use suggestion, as the spell. Save is 10+ 1/2 bard level + Cha mod. Enchantment (Compulsion), Mind-affecting, Language dependent.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 47,
+        "fields": {
+            "classId": 2,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 48,
+        "fields": {
+            "classId": 2,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 49,
+        "fields": {
+            "classId": 2,
+            "level": 9,
+            "features": "Inspire Greatness (Su): Perform 12 ranks minimum. Self or a single ally, +1 additional target per 3 levels. Lasts for sound duration +5 rounds. grants 2 HD (d10s), +2 competence on attack rolls, +1 competence on Fort saves. Mind-affecting.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 50,
+        "fields": {
+            "classId": 2,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 51,
+        "fields": {
+            "classId": 2,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 52,
+        "fields": {
+            "classId": 2,
+            "level": 12,
+            "features": "Song of Freedom (Sp): Perform 15 ranks minimum. As break enchament, cl = bard level. Requires 1 minute of uninterrupted concentration and music. 1 target within 30'. Can't use on self.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 53,
+        "fields": {
+            "classId": 2,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 54,
+        "fields": {
+            "classId": 2,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 55,
+        "fields": {
+            "classId": 2,
+            "level": 15,
+            "features": "Inspire Heroics (Su): Perform 18 ranks minimum. Self or one ally, +1 target per additional 3 levels. +4 morale on saves, and +4 dodge to AC. Lasts for song duration + 5 rounds.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 56,
+        "fields": {
+            "classId": 2,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 57,
+        "fields": {
+            "classId": 2,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 58,
+        "fields": {
+            "classId": 2,
+            "level": 18,
+            "features": "Mass Suggestion (Sp): As suggestion above, but applies to any number of fascinated creatures.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 59,
+        "fields": {
+            "classId": 2,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 60,
+        "fields": {
+            "classId": 2,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 61,
+        "fields": {
+            "classId": 3,
+            "level": 1,
+            "features": "Aura (Ex): Has an aura of the appropriate alignment and strength.\n\nTurn or Rebuke Undead (Su): Turn 3 + Cha mod times / day\n\nBonus Languages: May choose from Celestial, Abyssal, and Infernal, in additional to choices granted by race",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 2,
+            "Ref": 0,
+            "Will": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 62,
+        "fields": {
+            "classId": 3,
+            "level": 2,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 63,
+        "fields": {
+            "classId": 3,
+            "level": 3,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 64,
+        "fields": {
+            "classId": 3,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 65,
+        "fields": {
+            "classId": 3,
+            "level": 5,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 66,
+        "fields": {
+            "classId": 3,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 67,
+        "fields": {
+            "classId": 3,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 68,
+        "fields": {
+            "classId": 3,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 69,
+        "fields": {
+            "classId": 3,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 70,
+        "fields": {
+            "classId": 3,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 71,
+        "fields": {
+            "classId": 3,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 72,
+        "fields": {
+            "classId": 3,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 73,
+        "fields": {
+            "classId": 3,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 74,
+        "fields": {
+            "classId": 3,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 75,
+        "fields": {
+            "classId": 3,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 76,
+        "fields": {
+            "classId": 3,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 77,
+        "fields": {
+            "classId": 3,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 78,
+        "fields": {
+            "classId": 3,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 79,
+        "fields": {
+            "classId": 3,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 80,
+        "fields": {
+            "classId": 3,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 81,
+        "fields": {
+            "classId": 4,
+            "level": 1,
+            "features": "Animal Companion (Ex): 0+2(level/3) HD 0+2(level/3) NA 0+(level/3) Str/Dex 1+(level/3) Tricks. Link, share spells.\n\nNature Sense (Ex): +2 on Knowledge (Nature) and Survival checks.\n\nWild Empathy (Ex): As Diplomacy, on animals. 1d20 + level + cha mod",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 2,
+            "Ref": 0,
+            "Will": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 82,
+        "fields": {
+            "classId": 4,
+            "level": 2,
+            "features": "Woodland Stride (Ex): Ignore penalties from nature undergrowth",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 83,
+        "fields": {
+            "classId": 4,
+            "level": 3,
+            "features": "Trackless Step (Ex): Leave no trail in natural surroundings, unless you wish to.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 84,
+        "fields": {
+            "classId": 4,
+            "level": 4,
+            "features": "Resist Nature's Lure (Ex): +4 bonus on saves against spell-like abilities of fey",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 85,
+        "fields": {
+            "classId": 4,
+            "level": 5,
+            "features": "Wild Shape (Su): Small or medium animal. As polymorph, except 1 hour / druid level. Standard action. 1 / day + 1 at 6, 7, 10, 14, 18.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 86,
+        "fields": {
+            "classId": 4,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 87,
+        "fields": {
+            "classId": 4,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 88,
+        "fields": {
+            "classId": 4,
+            "level": 8,
+            "features": "Wild Shape (Large) (Ex): May now Wild Shape into Large animals ",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 89,
+        "fields": {
+            "classId": 4,
+            "level": 9,
+            "features": "Venom Immunity (Ex): Gain immunity to all posions",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 90,
+        "fields": {
+            "classId": 4,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 91,
+        "fields": {
+            "classId": 4,
+            "level": 11,
+            "features": "Wild Shape (Tiny) (Ex): May now Wild Shape into Tiny animals",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 92,
+        "fields": {
+            "classId": 4,
+            "level": 12,
+            "features": "Wild Shape (Plant) (Ex): May now Wild Shape into Plant creatures in addition to Animals",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 93,
+        "fields": {
+            "classId": 4,
+            "level": 13,
+            "features": "A Thousand Faces (Su): May change appearance at will, as the Alter Self spell, but only in normal form",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 94,
+        "fields": {
+            "classId": 4,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 95,
+        "fields": {
+            "classId": 4,
+            "level": 15,
+            "features": "Timeless Body (Ex): No penalties from aging from this point forward. Bonuses still accrue. Death from old age still occurs.\n\nWild Shape (Huge) (Ex): May Wild Shape into Huge forms as well",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 96,
+        "fields": {
+            "classId": 4,
+            "level": 16,
+            "features": "Wild Shape (Elemental) (Ex): May Wild Shape into a Small, Medium, or Large Air, Earth, Fire, or Water elemental. 1 + 1 / 2 additional druid levels.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 97,
+        "fields": {
+            "classId": 4,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 98,
+        "fields": {
+            "classId": 4,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 99,
+        "fields": {
+            "classId": 4,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 100,
+        "fields": {
+            "classId": 4,
+            "level": 20,
+            "features": "Wild Shape (Huge Elemental) (Ex): May now Wild Shape into Huge Elementals",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 101,
+        "fields": {
+            "classId": 5,
+            "level": 1,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 2,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 102,
+        "fields": {
+            "classId": 5,
+            "level": 2,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 103,
+        "fields": {
+            "classId": 5,
+            "level": 3,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 104,
+        "fields": {
+            "classId": 5,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 105,
+        "fields": {
+            "classId": 5,
+            "level": 5,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 106,
+        "fields": {
+            "classId": 5,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 107,
+        "fields": {
+            "classId": 5,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 108,
+        "fields": {
+            "classId": 5,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 109,
+        "fields": {
+            "classId": 5,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 110,
+        "fields": {
+            "classId": 5,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 111,
+        "fields": {
+            "classId": 5,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 112,
+        "fields": {
+            "classId": 5,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 113,
+        "fields": {
+            "classId": 5,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 114,
+        "fields": {
+            "classId": 5,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 115,
+        "fields": {
+            "classId": 5,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 116,
+        "fields": {
+            "classId": 5,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 117,
+        "fields": {
+            "classId": 5,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 118,
+        "fields": {
+            "classId": 5,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 119,
+        "fields": {
+            "classId": 5,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 120,
+        "fields": {
+            "classId": 5,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 121,
+        "fields": {
+            "classId": 6,
+            "level": 1,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 2,
+            "Ref": 2,
+            "Will": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 122,
+        "fields": {
+            "classId": 6,
+            "level": 2,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 123,
+        "fields": {
+            "classId": 6,
+            "level": 3,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 124,
+        "fields": {
+            "classId": 6,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 125,
+        "fields": {
+            "classId": 6,
+            "level": 5,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 126,
+        "fields": {
+            "classId": 6,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 127,
+        "fields": {
+            "classId": 6,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 128,
+        "fields": {
+            "classId": 6,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 129,
+        "fields": {
+            "classId": 6,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 130,
+        "fields": {
+            "classId": 6,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 131,
+        "fields": {
+            "classId": 6,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 132,
+        "fields": {
+            "classId": 6,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 133,
+        "fields": {
+            "classId": 6,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 134,
+        "fields": {
+            "classId": 6,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 135,
+        "fields": {
+            "classId": 6,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 136,
+        "fields": {
+            "classId": 6,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 137,
+        "fields": {
+            "classId": 6,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 138,
+        "fields": {
+            "classId": 6,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 139,
+        "fields": {
+            "classId": 6,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 140,
+        "fields": {
+            "classId": 6,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 141,
+        "fields": {
+            "classId": 7,
+            "level": 1,
+            "features": "Aura of Good (Ex): As a clerics\n\nDetect Evil (Sp): At will, as the spell. CL = paladin level\n\nSmite Evil (Su): 1 + 1/5 levels / day. + Cha mod to attack roll, and + paladin level to damage roll against evil target.\n\nCode of Conduct: Must be lawful good, respect authority, act with honor, help those in need, and punish those who harm or threaten innocents.\n\nAssociates: Must never knowingly associate with evil characters, continue association with someone who offends their moral code, and only accept henchmen, followers, or cohorts who are lawful good.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 2,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 142,
+        "fields": {
+            "classId": 7,
+            "level": 2,
+            "features": "Divine Grace (Su): + Cha mod to all saves\n\nLay on Hands (Su): Level x Cha mod points per day.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 143,
+        "fields": {
+            "classId": 7,
+            "level": 3,
+            "features": "Aura of Courage (Su): Immune to fear, allies with 10' get +4 morale against fear.\nDivine Health (Ex): Immune to all diseases, including supernatural and magical diseases",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 144,
+        "fields": {
+            "classId": 7,
+            "level": 4,
+            "features": "Turn Undead (Su): 3 + cha mod /day, as cleric of paladin level - 3",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 145,
+        "fields": {
+            "classId": 7,
+            "level": 5,
+            "features": "Special Mount (Sp):",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 146,
+        "fields": {
+            "classId": 7,
+            "level": 6,
+            "features": "Remove Disease (Sp): As the spell, 1 + 1/3 additional levels / week . CL = paladin level.",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 147,
+        "fields": {
+            "classId": 7,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 148,
+        "fields": {
+            "classId": 7,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 149,
+        "fields": {
+            "classId": 7,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 150,
+        "fields": {
+            "classId": 7,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 151,
+        "fields": {
+            "classId": 7,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 152,
+        "fields": {
+            "classId": 7,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 153,
+        "fields": {
+            "classId": 7,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 154,
+        "fields": {
+            "classId": 7,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 155,
+        "fields": {
+            "classId": 7,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 156,
+        "fields": {
+            "classId": 7,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 157,
+        "fields": {
+            "classId": 7,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 158,
+        "fields": {
+            "classId": 7,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 159,
+        "fields": {
+            "classId": 7,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 160,
+        "fields": {
+            "classId": 7,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 161,
+        "fields": {
+            "classId": 8,
+            "level": 1,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 2,
+            "Ref": 2,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 162,
+        "fields": {
+            "classId": 8,
+            "level": 2,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 163,
+        "fields": {
+            "classId": 8,
+            "level": 3,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 164,
+        "fields": {
+            "classId": 8,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 165,
+        "fields": {
+            "classId": 8,
+            "level": 5,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 166,
+        "fields": {
+            "classId": 8,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 167,
+        "fields": {
+            "classId": 8,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 168,
+        "fields": {
+            "classId": 8,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 169,
+        "fields": {
+            "classId": 8,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 170,
+        "fields": {
+            "classId": 8,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 171,
+        "fields": {
+            "classId": 8,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 172,
+        "fields": {
+            "classId": 8,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 173,
+        "fields": {
+            "classId": 8,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 174,
+        "fields": {
+            "classId": 8,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 175,
+        "fields": {
+            "classId": 8,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 176,
+        "fields": {
+            "classId": 8,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 177,
+        "fields": {
+            "classId": 8,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 178,
+        "fields": {
+            "classId": 8,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 179,
+        "fields": {
+            "classId": 8,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 180,
+        "fields": {
+            "classId": 8,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 181,
+        "fields": {
+            "classId": 9,
+            "level": 1,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 2,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 182,
+        "fields": {
+            "classId": 9,
+            "level": 2,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 183,
+        "fields": {
+            "classId": 9,
+            "level": 3,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 184,
+        "fields": {
+            "classId": 9,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 185,
+        "fields": {
+            "classId": 9,
+            "level": 5,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 186,
+        "fields": {
+            "classId": 9,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 187,
+        "fields": {
+            "classId": 9,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 188,
+        "fields": {
+            "classId": 9,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 189,
+        "fields": {
+            "classId": 9,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 190,
+        "fields": {
+            "classId": 9,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 191,
+        "fields": {
+            "classId": 9,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 192,
+        "fields": {
+            "classId": 9,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 193,
+        "fields": {
+            "classId": 9,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 194,
+        "fields": {
+            "classId": 9,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 195,
+        "fields": {
+            "classId": 9,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 196,
+        "fields": {
+            "classId": 9,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 197,
+        "fields": {
+            "classId": 9,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 198,
+        "fields": {
+            "classId": 9,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 199,
+        "fields": {
+            "classId": 9,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 200,
+        "fields": {
+            "classId": 9,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 201,
+        "fields": {
+            "classId": 10,
+            "level": 1,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 202,
+        "fields": {
+            "classId": 10,
+            "level": 2,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 203,
+        "fields": {
+            "classId": 10,
+            "level": 3,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 204,
+        "fields": {
+            "classId": 10,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 205,
+        "fields": {
+            "classId": 10,
+            "level": 5,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 206,
+        "fields": {
+            "classId": 10,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 207,
+        "fields": {
+            "classId": 10,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 208,
+        "fields": {
+            "classId": 10,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 209,
+        "fields": {
+            "classId": 10,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 210,
+        "fields": {
+            "classId": 10,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 211,
+        "fields": {
+            "classId": 10,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 212,
+        "fields": {
+            "classId": 10,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 213,
+        "fields": {
+            "classId": 10,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 214,
+        "fields": {
+            "classId": 10,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 215,
+        "fields": {
+            "classId": 10,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 216,
+        "fields": {
+            "classId": 10,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 217,
+        "fields": {
+            "classId": 10,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 218,
+        "fields": {
+            "classId": 10,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 219,
+        "fields": {
+            "classId": 10,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 220,
+        "fields": {
+            "classId": 10,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 221,
+        "fields": {
+            "classId": 11,
+            "level": 1,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 2
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 222,
+        "fields": {
+            "classId": 11,
+            "level": 2,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 223,
+        "fields": {
+            "classId": 11,
+            "level": 3,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 224,
+        "fields": {
+            "classId": 11,
+            "level": 4,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 225,
+        "fields": {
+            "classId": 11,
+            "level": 5,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 226,
+        "fields": {
+            "classId": 11,
+            "level": 6,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 227,
+        "fields": {
+            "classId": 11,
+            "level": 7,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 228,
+        "fields": {
+            "classId": 11,
+            "level": 8,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 229,
+        "fields": {
+            "classId": 11,
+            "level": 9,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 230,
+        "fields": {
+            "classId": 11,
+            "level": 10,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 231,
+        "fields": {
+            "classId": 11,
+            "level": 11,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 232,
+        "fields": {
+            "classId": 11,
+            "level": 12,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 233,
+        "fields": {
+            "classId": 11,
+            "level": 13,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 234,
+        "fields": {
+            "classId": 11,
+            "level": 14,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 235,
+        "fields": {
+            "classId": 11,
+            "level": 15,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 236,
+        "fields": {
+            "classId": 11,
+            "level": 16,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 237,
+        "fields": {
+            "classId": 11,
+            "level": 17,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 238,
+        "fields": {
+            "classId": 11,
+            "level": 18,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 1,
+            "Ref": 1,
+            "Will": 1
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 239,
+        "fields": {
+            "classId": 11,
+            "level": 19,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 0,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 0
+        }
+    },
+    {
+        "model": "HeroForgeApi.classLevel",
+        "pk": 240,
+        "fields": {
+            "classId": 11,
+            "level": 20,
+            "features": "",
+            "fixedFeat": null,
+            "featSetId": null,
+            "BAB": 1,
+            "Fort": 0,
+            "Ref": 0,
+            "Will": 1
+        }
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 0,
+        "fields": {
+            "name": "no class",
+            "skillPoints": 0,
+            "HD": 0,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 1,
+        "fields": {
+            "name": "Barbarian",
+            "skillPoints": 4,
+            "HD": 12,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 2,
+        "fields": {
+            "name": "Bard",
+            "skillPoints": 6,
+            "HD": 6,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 3,
+        "fields": {
+            "name": "Cleric",
+            "skillPoints": 2,
+            "HD": 8,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 4,
+        "fields": {
+            "name": "Druid",
+            "skillPoints": 4,
+            "HD": 8,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 5,
+        "fields": {
+            "name": "Fighter",
+            "skillPoints": 2,
+            "HD": 10,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 6,
+        "fields": {
+            "name": "Monk",
+            "skillPoints": 4,
+            "HD": 8,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 7,
+        "fields": {
+            "name": "Paladin",
+            "skillPoints": 2,
+            "HD": 10,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 8,
+        "fields": {
+            "name": "Ranger",
+            "skillPoints": 6,
+            "HD": 8,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 9,
+        "fields": {
+            "name": "Rogue",
+            "skillPoints": 8,
+            "HD": 6,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 10,
+        "fields": {
+            "name": "Sorceror",
+            "skillPoints": 2,
+            "HD": 4,
+            "classSkills": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.classs",
+        "pk": 11,
+        "fields": {
+            "name": "Wizard",
+            "skillPoints": 2,
+            "HD": 4,
+            "classSkills": []
+        }
+    }
+]

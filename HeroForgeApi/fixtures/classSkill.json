@@ -1,0 +1,4467 @@
+[
+    
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 1,
+        "fields": {
+            "classId": 0,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 2,
+        "fields": {
+            "classId": 1,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 3,
+        "fields": {
+            "classId": 1,
+            "skillId": 7,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 4,
+        "fields": {
+            "classId": 1,
+            "skillId": 2,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 5,
+        "fields": {
+            "classId": 1,
+            "skillId": 3,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 6,
+        "fields": {
+            "classId": 1,
+            "skillId": 4,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 7,
+        "fields": {
+            "classId": 1,
+            "skillId": 5,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 8,
+        "fields": {
+            "classId": 1,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 9,
+        "fields": {
+            "classId": 1,
+            "skillId": 8,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 10,
+        "fields": {
+            "classId": 1,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 11,
+        "fields": {
+            "classId": 1,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 12,
+        "fields": {
+            "classId": 1,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 13,
+        "fields": {
+            "classId": 1,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 14,
+        "fields": {
+            "classId": 1,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 15,
+        "fields": {
+            "classId": 1,
+            "skillId": 14,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 16,
+        "fields": {
+            "classId": 1,
+            "skillId": 15,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 17,
+        "fields": {
+            "classId": 1,
+            "skillId": 16,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 18,
+        "fields": {
+            "classId": 1,
+            "skillId": 17,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 19,
+        "fields": {
+            "classId": 1,
+            "skillId": 18,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 20,
+        "fields": {
+            "classId": 1,
+            "skillId": 19,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 21,
+        "fields": {
+            "classId": 1,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 22,
+        "fields": {
+            "classId": 1,
+            "skillId": 21,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 23,
+        "fields": {
+            "classId": 1,
+            "skillId": 22,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 24,
+        "fields": {
+            "classId": 1,
+            "skillId": 25,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 25,
+        "fields": {
+            "classId": 1,
+            "skillId": 23,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 26,
+        "fields": {
+            "classId": 1,
+            "skillId": 24,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 27,
+        "fields": {
+            "classId": 1,
+            "skillId": 26,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 28,
+        "fields": {
+            "classId": 1,
+            "skillId": 27,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 29,
+        "fields": {
+            "classId": 1,
+            "skillId": 28,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 30,
+        "fields": {
+            "classId": 1,
+            "skillId": 29,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 31,
+        "fields": {
+            "classId": 1,
+            "skillId": 30,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 32,
+        "fields": {
+            "classId": 1,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 33,
+        "fields": {
+            "classId": 1,
+            "skillId": 32,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 34,
+        "fields": {
+            "classId": 1,
+            "skillId": 33,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 35,
+        "fields": {
+            "classId": 1,
+            "skillId": 34,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 36,
+        "fields": {
+            "classId": 1,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 37,
+        "fields": {
+            "classId": 1,
+            "skillId": 36,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 38,
+        "fields": {
+            "classId": 1,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 39,
+        "fields": {
+            "classId": 1,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 40,
+        "fields": {
+            "classId": 1,
+            "skillId": 39,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 41,
+        "fields": {
+            "classId": 1,
+            "skillId": 40,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 42,
+        "fields": {
+            "classId": 1,
+            "skillId": 41,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 43,
+        "fields": {
+            "classId": 1,
+            "skillId": 43,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 44,
+        "fields": {
+            "classId": 1,
+            "skillId": 42,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 45,
+        "fields": {
+            "classId": 1,
+            "skillId": 45,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 46,
+        "fields": {
+            "classId": 1,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 47,
+        "fields": {
+            "classId": 2,
+            "skillId": 1,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 48,
+        "fields": {
+            "classId": 2,
+            "skillId": 2,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 49,
+        "fields": {
+            "classId": 2,
+            "skillId": 3,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 50,
+        "fields": {
+            "classId": 2,
+            "skillId": 4,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 51,
+        "fields": {
+            "classId": 2,
+            "skillId": 5,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 52,
+        "fields": {
+            "classId": 2,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 53,
+        "fields": {
+            "classId": 2,
+            "skillId": 7,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 54,
+        "fields": {
+            "classId": 2,
+            "skillId": 8,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 55,
+        "fields": {
+            "classId": 2,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 56,
+        "fields": {
+            "classId": 2,
+            "skillId": 10,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 57,
+        "fields": {
+            "classId": 2,
+            "skillId": 11,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 58,
+        "fields": {
+            "classId": 2,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 59,
+        "fields": {
+            "classId": 2,
+            "skillId": 13,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 60,
+        "fields": {
+            "classId": 2,
+            "skillId": 14,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 61,
+        "fields": {
+            "classId": 2,
+            "skillId": 15,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 62,
+        "fields": {
+            "classId": 2,
+            "skillId": 16,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 63,
+        "fields": {
+            "classId": 2,
+            "skillId": 17,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 64,
+        "fields": {
+            "classId": 2,
+            "skillId": 18,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 65,
+        "fields": {
+            "classId": 2,
+            "skillId": 19,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 66,
+        "fields": {
+            "classId": 2,
+            "skillId": 20,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 67,
+        "fields": {
+            "classId": 2,
+            "skillId": 21,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 68,
+        "fields": {
+            "classId": 2,
+            "skillId": 22,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 69,
+        "fields": {
+            "classId": 2,
+            "skillId": 23,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 70,
+        "fields": {
+            "classId": 2,
+            "skillId": 24,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 71,
+        "fields": {
+            "classId": 2,
+            "skillId": 25,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 72,
+        "fields": {
+            "classId": 2,
+            "skillId": 26,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 73,
+        "fields": {
+            "classId": 2,
+            "skillId": 27,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 74,
+        "fields": {
+            "classId": 2,
+            "skillId": 28,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 75,
+        "fields": {
+            "classId": 2,
+            "skillId": 29,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 76,
+        "fields": {
+            "classId": 2,
+            "skillId": 30,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 77,
+        "fields": {
+            "classId": 2,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 78,
+        "fields": {
+            "classId": 2,
+            "skillId": 32,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 79,
+        "fields": {
+            "classId": 2,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 80,
+        "fields": {
+            "classId": 2,
+            "skillId": 34,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 81,
+        "fields": {
+            "classId": 2,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 82,
+        "fields": {
+            "classId": 2,
+            "skillId": 36,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 83,
+        "fields": {
+            "classId": 2,
+            "skillId": 37,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 84,
+        "fields": {
+            "classId": 2,
+            "skillId": 38,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 85,
+        "fields": {
+            "classId": 2,
+            "skillId": 39,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 86,
+        "fields": {
+            "classId": 2,
+            "skillId": 42,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 87,
+        "fields": {
+            "classId": 2,
+            "skillId": 40,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 88,
+        "fields": {
+            "classId": 2,
+            "skillId": 41,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 89,
+        "fields": {
+            "classId": 2,
+            "skillId": 43,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 90,
+        "fields": {
+            "classId": 2,
+            "skillId": 44,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 91,
+        "fields": {
+            "classId": 2,
+            "skillId": 45,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 92,
+        "fields": {
+            "classId": 3,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 93,
+        "fields": {
+            "classId": 3,
+            "skillId": 2,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 94,
+        "fields": {
+            "classId": 3,
+            "skillId": 3,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 95,
+        "fields": {
+            "classId": 3,
+            "skillId": 4,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 96,
+        "fields": {
+            "classId": 3,
+            "skillId": 7,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 97,
+        "fields": {
+            "classId": 3,
+            "skillId": 5,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 98,
+        "fields": {
+            "classId": 3,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 99,
+        "fields": {
+            "classId": 3,
+            "skillId": 8,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 100,
+        "fields": {
+            "classId": 3,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 101,
+        "fields": {
+            "classId": 3,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 102,
+        "fields": {
+            "classId": 3,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 103,
+        "fields": {
+            "classId": 3,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 104,
+        "fields": {
+            "classId": 3,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 105,
+        "fields": {
+            "classId": 3,
+            "skillId": 14,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 106,
+        "fields": {
+            "classId": 3,
+            "skillId": 15,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 107,
+        "fields": {
+            "classId": 3,
+            "skillId": 16,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 108,
+        "fields": {
+            "classId": 3,
+            "skillId": 17,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 109,
+        "fields": {
+            "classId": 3,
+            "skillId": 18,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 110,
+        "fields": {
+            "classId": 3,
+            "skillId": 19,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 111,
+        "fields": {
+            "classId": 3,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 112,
+        "fields": {
+            "classId": 3,
+            "skillId": 21,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 113,
+        "fields": {
+            "classId": 3,
+            "skillId": 22,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 114,
+        "fields": {
+            "classId": 3,
+            "skillId": 23,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 115,
+        "fields": {
+            "classId": 3,
+            "skillId": 24,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 116,
+        "fields": {
+            "classId": 3,
+            "skillId": 25,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 117,
+        "fields": {
+            "classId": 3,
+            "skillId": 26,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 118,
+        "fields": {
+            "classId": 3,
+            "skillId": 27,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 119,
+        "fields": {
+            "classId": 3,
+            "skillId": 28,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 120,
+        "fields": {
+            "classId": 3,
+            "skillId": 29,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 121,
+        "fields": {
+            "classId": 3,
+            "skillId": 30,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 122,
+        "fields": {
+            "classId": 3,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 123,
+        "fields": {
+            "classId": 3,
+            "skillId": 32,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 124,
+        "fields": {
+            "classId": 3,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 125,
+        "fields": {
+            "classId": 3,
+            "skillId": 34,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 126,
+        "fields": {
+            "classId": 3,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 127,
+        "fields": {
+            "classId": 3,
+            "skillId": 36,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 128,
+        "fields": {
+            "classId": 3,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 129,
+        "fields": {
+            "classId": 3,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 130,
+        "fields": {
+            "classId": 3,
+            "skillId": 39,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 131,
+        "fields": {
+            "classId": 3,
+            "skillId": 40,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 132,
+        "fields": {
+            "classId": 3,
+            "skillId": 41,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 133,
+        "fields": {
+            "classId": 3,
+            "skillId": 42,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 134,
+        "fields": {
+            "classId": 3,
+            "skillId": 43,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 135,
+        "fields": {
+            "classId": 3,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 136,
+        "fields": {
+            "classId": 3,
+            "skillId": 45,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 137,
+        "fields": {
+            "classId": 4,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 138,
+        "fields": {
+            "classId": 4,
+            "skillId": 2,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 139,
+        "fields": {
+            "classId": 4,
+            "skillId": 3,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 140,
+        "fields": {
+            "classId": 4,
+            "skillId": 4,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 141,
+        "fields": {
+            "classId": 4,
+            "skillId": 5,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 142,
+        "fields": {
+            "classId": 4,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 143,
+        "fields": {
+            "classId": 4,
+            "skillId": 8,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 144,
+        "fields": {
+            "classId": 4,
+            "skillId": 7,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 145,
+        "fields": {
+            "classId": 4,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 146,
+        "fields": {
+            "classId": 4,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 147,
+        "fields": {
+            "classId": 4,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 148,
+        "fields": {
+            "classId": 4,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 149,
+        "fields": {
+            "classId": 4,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 150,
+        "fields": {
+            "classId": 4,
+            "skillId": 14,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 151,
+        "fields": {
+            "classId": 4,
+            "skillId": 15,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 152,
+        "fields": {
+            "classId": 4,
+            "skillId": 16,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 153,
+        "fields": {
+            "classId": 4,
+            "skillId": 17,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 154,
+        "fields": {
+            "classId": 4,
+            "skillId": 18,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 155,
+        "fields": {
+            "classId": 4,
+            "skillId": 19,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 156,
+        "fields": {
+            "classId": 4,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 157,
+        "fields": {
+            "classId": 4,
+            "skillId": 21,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 158,
+        "fields": {
+            "classId": 4,
+            "skillId": 22,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 159,
+        "fields": {
+            "classId": 4,
+            "skillId": 23,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 160,
+        "fields": {
+            "classId": 4,
+            "skillId": 24,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 161,
+        "fields": {
+            "classId": 4,
+            "skillId": 25,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 162,
+        "fields": {
+            "classId": 4,
+            "skillId": 26,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 163,
+        "fields": {
+            "classId": 4,
+            "skillId": 27,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 164,
+        "fields": {
+            "classId": 4,
+            "skillId": 28,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 165,
+        "fields": {
+            "classId": 4,
+            "skillId": 29,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 166,
+        "fields": {
+            "classId": 4,
+            "skillId": 30,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 167,
+        "fields": {
+            "classId": 4,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 168,
+        "fields": {
+            "classId": 4,
+            "skillId": 32,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 169,
+        "fields": {
+            "classId": 4,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 170,
+        "fields": {
+            "classId": 4,
+            "skillId": 34,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 171,
+        "fields": {
+            "classId": 4,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 172,
+        "fields": {
+            "classId": 4,
+            "skillId": 36,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 173,
+        "fields": {
+            "classId": 4,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 174,
+        "fields": {
+            "classId": 4,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 175,
+        "fields": {
+            "classId": 4,
+            "skillId": 39,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 176,
+        "fields": {
+            "classId": 4,
+            "skillId": 40,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 177,
+        "fields": {
+            "classId": 4,
+            "skillId": 41,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 178,
+        "fields": {
+            "classId": 4,
+            "skillId": 42,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 179,
+        "fields": {
+            "classId": 4,
+            "skillId": 43,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 180,
+        "fields": {
+            "classId": 4,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 181,
+        "fields": {
+            "classId": 4,
+            "skillId": 45,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 182,
+        "fields": {
+            "classId": 5,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 183,
+        "fields": {
+            "classId": 5,
+            "skillId": 2,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 184,
+        "fields": {
+            "classId": 5,
+            "skillId": 3,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 185,
+        "fields": {
+            "classId": 5,
+            "skillId": 4,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 186,
+        "fields": {
+            "classId": 5,
+            "skillId": 5,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 187,
+        "fields": {
+            "classId": 5,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 188,
+        "fields": {
+            "classId": 5,
+            "skillId": 7,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 189,
+        "fields": {
+            "classId": 5,
+            "skillId": 8,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 190,
+        "fields": {
+            "classId": 5,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 191,
+        "fields": {
+            "classId": 5,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 192,
+        "fields": {
+            "classId": 5,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 193,
+        "fields": {
+            "classId": 5,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 194,
+        "fields": {
+            "classId": 5,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 195,
+        "fields": {
+            "classId": 5,
+            "skillId": 14,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 196,
+        "fields": {
+            "classId": 5,
+            "skillId": 15,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 197,
+        "fields": {
+            "classId": 5,
+            "skillId": 16,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 198,
+        "fields": {
+            "classId": 5,
+            "skillId": 17,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 199,
+        "fields": {
+            "classId": 5,
+            "skillId": 18,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 200,
+        "fields": {
+            "classId": 5,
+            "skillId": 19,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 201,
+        "fields": {
+            "classId": 5,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 202,
+        "fields": {
+            "classId": 5,
+            "skillId": 21,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 203,
+        "fields": {
+            "classId": 5,
+            "skillId": 22,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 204,
+        "fields": {
+            "classId": 5,
+            "skillId": 23,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 205,
+        "fields": {
+            "classId": 5,
+            "skillId": 24,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 206,
+        "fields": {
+            "classId": 5,
+            "skillId": 25,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 207,
+        "fields": {
+            "classId": 5,
+            "skillId": 26,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 208,
+        "fields": {
+            "classId": 5,
+            "skillId": 28,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 209,
+        "fields": {
+            "classId": 5,
+            "skillId": 27,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 210,
+        "fields": {
+            "classId": 5,
+            "skillId": 30,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 211,
+        "fields": {
+            "classId": 5,
+            "skillId": 29,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 212,
+        "fields": {
+            "classId": 5,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 213,
+        "fields": {
+            "classId": 5,
+            "skillId": 32,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 214,
+        "fields": {
+            "classId": 5,
+            "skillId": 33,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 215,
+        "fields": {
+            "classId": 5,
+            "skillId": 34,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 216,
+        "fields": {
+            "classId": 5,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 217,
+        "fields": {
+            "classId": 5,
+            "skillId": 36,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 218,
+        "fields": {
+            "classId": 5,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 219,
+        "fields": {
+            "classId": 5,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 220,
+        "fields": {
+            "classId": 5,
+            "skillId": 40,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 221,
+        "fields": {
+            "classId": 5,
+            "skillId": 39,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 222,
+        "fields": {
+            "classId": 5,
+            "skillId": 41,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 223,
+        "fields": {
+            "classId": 5,
+            "skillId": 42,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 224,
+        "fields": {
+            "classId": 5,
+            "skillId": 43,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 225,
+        "fields": {
+            "classId": 5,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 226,
+        "fields": {
+            "classId": 5,
+            "skillId": 45,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 227,
+        "fields": {
+            "classId": 6,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 228,
+        "fields": {
+            "classId": 6,
+            "skillId": 2,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 229,
+        "fields": {
+            "classId": 6,
+            "skillId": 3,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 230,
+        "fields": {
+            "classId": 6,
+            "skillId": 4,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 231,
+        "fields": {
+            "classId": 6,
+            "skillId": 5,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 232,
+        "fields": {
+            "classId": 6,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 233,
+        "fields": {
+            "classId": 6,
+            "skillId": 7,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 234,
+        "fields": {
+            "classId": 6,
+            "skillId": 8,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 235,
+        "fields": {
+            "classId": 6,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 236,
+        "fields": {
+            "classId": 6,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 237,
+        "fields": {
+            "classId": 6,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 238,
+        "fields": {
+            "classId": 6,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 239,
+        "fields": {
+            "classId": 6,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 240,
+        "fields": {
+            "classId": 6,
+            "skillId": 14,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 241,
+        "fields": {
+            "classId": 6,
+            "skillId": 15,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 242,
+        "fields": {
+            "classId": 6,
+            "skillId": 16,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 243,
+        "fields": {
+            "classId": 6,
+            "skillId": 17,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 244,
+        "fields": {
+            "classId": 6,
+            "skillId": 18,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 245,
+        "fields": {
+            "classId": 6,
+            "skillId": 19,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 246,
+        "fields": {
+            "classId": 6,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 247,
+        "fields": {
+            "classId": 6,
+            "skillId": 21,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 248,
+        "fields": {
+            "classId": 6,
+            "skillId": 22,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 249,
+        "fields": {
+            "classId": 6,
+            "skillId": 23,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 250,
+        "fields": {
+            "classId": 6,
+            "skillId": 24,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 251,
+        "fields": {
+            "classId": 6,
+            "skillId": 25,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 252,
+        "fields": {
+            "classId": 6,
+            "skillId": 26,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 253,
+        "fields": {
+            "classId": 6,
+            "skillId": 27,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 254,
+        "fields": {
+            "classId": 6,
+            "skillId": 28,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 255,
+        "fields": {
+            "classId": 6,
+            "skillId": 29,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 256,
+        "fields": {
+            "classId": 6,
+            "skillId": 30,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 257,
+        "fields": {
+            "classId": 6,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 258,
+        "fields": {
+            "classId": 6,
+            "skillId": 32,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 259,
+        "fields": {
+            "classId": 6,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 260,
+        "fields": {
+            "classId": 6,
+            "skillId": 34,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 261,
+        "fields": {
+            "classId": 6,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 262,
+        "fields": {
+            "classId": 6,
+            "skillId": 36,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 263,
+        "fields": {
+            "classId": 6,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 264,
+        "fields": {
+            "classId": 6,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 265,
+        "fields": {
+            "classId": 6,
+            "skillId": 39,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 266,
+        "fields": {
+            "classId": 6,
+            "skillId": 40,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 267,
+        "fields": {
+            "classId": 6,
+            "skillId": 41,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 268,
+        "fields": {
+            "classId": 6,
+            "skillId": 42,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 269,
+        "fields": {
+            "classId": 6,
+            "skillId": 43,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 270,
+        "fields": {
+            "classId": 6,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 271,
+        "fields": {
+            "classId": 6,
+            "skillId": 45,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 272,
+        "fields": {
+            "classId": 7,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 273,
+        "fields": {
+            "classId": 7,
+            "skillId": 2,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 274,
+        "fields": {
+            "classId": 7,
+            "skillId": 4,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 275,
+        "fields": {
+            "classId": 7,
+            "skillId": 3,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 276,
+        "fields": {
+            "classId": 7,
+            "skillId": 5,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 277,
+        "fields": {
+            "classId": 7,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 278,
+        "fields": {
+            "classId": 7,
+            "skillId": 7,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 279,
+        "fields": {
+            "classId": 7,
+            "skillId": 8,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 280,
+        "fields": {
+            "classId": 7,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 281,
+        "fields": {
+            "classId": 7,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 282,
+        "fields": {
+            "classId": 7,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 283,
+        "fields": {
+            "classId": 7,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 284,
+        "fields": {
+            "classId": 7,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 285,
+        "fields": {
+            "classId": 7,
+            "skillId": 14,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 286,
+        "fields": {
+            "classId": 7,
+            "skillId": 15,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 287,
+        "fields": {
+            "classId": 7,
+            "skillId": 16,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 288,
+        "fields": {
+            "classId": 7,
+            "skillId": 17,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 289,
+        "fields": {
+            "classId": 7,
+            "skillId": 18,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 290,
+        "fields": {
+            "classId": 7,
+            "skillId": 19,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 291,
+        "fields": {
+            "classId": 7,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 292,
+        "fields": {
+            "classId": 7,
+            "skillId": 21,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 293,
+        "fields": {
+            "classId": 7,
+            "skillId": 22,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 294,
+        "fields": {
+            "classId": 7,
+            "skillId": 23,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 295,
+        "fields": {
+            "classId": 7,
+            "skillId": 24,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 296,
+        "fields": {
+            "classId": 7,
+            "skillId": 25,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 297,
+        "fields": {
+            "classId": 7,
+            "skillId": 27,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 298,
+        "fields": {
+            "classId": 7,
+            "skillId": 26,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 299,
+        "fields": {
+            "classId": 7,
+            "skillId": 28,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 300,
+        "fields": {
+            "classId": 7,
+            "skillId": 29,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 301,
+        "fields": {
+            "classId": 7,
+            "skillId": 30,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 302,
+        "fields": {
+            "classId": 7,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 303,
+        "fields": {
+            "classId": 7,
+            "skillId": 32,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 304,
+        "fields": {
+            "classId": 7,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 305,
+        "fields": {
+            "classId": 7,
+            "skillId": 34,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 306,
+        "fields": {
+            "classId": 7,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 307,
+        "fields": {
+            "classId": 7,
+            "skillId": 36,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 308,
+        "fields": {
+            "classId": 7,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 309,
+        "fields": {
+            "classId": 7,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 310,
+        "fields": {
+            "classId": 7,
+            "skillId": 39,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 311,
+        "fields": {
+            "classId": 7,
+            "skillId": 40,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 312,
+        "fields": {
+            "classId": 7,
+            "skillId": 41,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 313,
+        "fields": {
+            "classId": 7,
+            "skillId": 42,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 314,
+        "fields": {
+            "classId": 7,
+            "skillId": 43,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 315,
+        "fields": {
+            "classId": 7,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 316,
+        "fields": {
+            "classId": 7,
+            "skillId": 45,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 317,
+        "fields": {
+            "classId": 8,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 318,
+        "fields": {
+            "classId": 8,
+            "skillId": 2,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 319,
+        "fields": {
+            "classId": 8,
+            "skillId": 3,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 320,
+        "fields": {
+            "classId": 8,
+            "skillId": 4,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 321,
+        "fields": {
+            "classId": 8,
+            "skillId": 5,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 322,
+        "fields": {
+            "classId": 8,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 323,
+        "fields": {
+            "classId": 8,
+            "skillId": 7,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 324,
+        "fields": {
+            "classId": 8,
+            "skillId": 8,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 325,
+        "fields": {
+            "classId": 8,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 326,
+        "fields": {
+            "classId": 8,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 327,
+        "fields": {
+            "classId": 8,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 328,
+        "fields": {
+            "classId": 8,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 329,
+        "fields": {
+            "classId": 8,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 330,
+        "fields": {
+            "classId": 8,
+            "skillId": 14,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 331,
+        "fields": {
+            "classId": 8,
+            "skillId": 15,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 332,
+        "fields": {
+            "classId": 8,
+            "skillId": 16,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 333,
+        "fields": {
+            "classId": 8,
+            "skillId": 17,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 334,
+        "fields": {
+            "classId": 8,
+            "skillId": 18,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 335,
+        "fields": {
+            "classId": 8,
+            "skillId": 19,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 336,
+        "fields": {
+            "classId": 8,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 337,
+        "fields": {
+            "classId": 8,
+            "skillId": 21,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 338,
+        "fields": {
+            "classId": 8,
+            "skillId": 22,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 339,
+        "fields": {
+            "classId": 8,
+            "skillId": 23,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 340,
+        "fields": {
+            "classId": 8,
+            "skillId": 24,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 341,
+        "fields": {
+            "classId": 8,
+            "skillId": 25,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 342,
+        "fields": {
+            "classId": 8,
+            "skillId": 26,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 343,
+        "fields": {
+            "classId": 8,
+            "skillId": 27,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 344,
+        "fields": {
+            "classId": 8,
+            "skillId": 28,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 345,
+        "fields": {
+            "classId": 8,
+            "skillId": 29,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 346,
+        "fields": {
+            "classId": 8,
+            "skillId": 30,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 347,
+        "fields": {
+            "classId": 8,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 348,
+        "fields": {
+            "classId": 8,
+            "skillId": 32,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 349,
+        "fields": {
+            "classId": 8,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 350,
+        "fields": {
+            "classId": 8,
+            "skillId": 34,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 351,
+        "fields": {
+            "classId": 8,
+            "skillId": 35,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 352,
+        "fields": {
+            "classId": 8,
+            "skillId": 36,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 353,
+        "fields": {
+            "classId": 8,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 354,
+        "fields": {
+            "classId": 8,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 355,
+        "fields": {
+            "classId": 8,
+            "skillId": 39,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 356,
+        "fields": {
+            "classId": 8,
+            "skillId": 40,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 357,
+        "fields": {
+            "classId": 8,
+            "skillId": 41,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 358,
+        "fields": {
+            "classId": 8,
+            "skillId": 42,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 359,
+        "fields": {
+            "classId": 8,
+            "skillId": 43,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 360,
+        "fields": {
+            "classId": 8,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 361,
+        "fields": {
+            "classId": 8,
+            "skillId": 45,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 362,
+        "fields": {
+            "classId": 9,
+            "skillId": 1,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 363,
+        "fields": {
+            "classId": 9,
+            "skillId": 2,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 364,
+        "fields": {
+            "classId": 9,
+            "skillId": 3,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 365,
+        "fields": {
+            "classId": 9,
+            "skillId": 5,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 366,
+        "fields": {
+            "classId": 9,
+            "skillId": 4,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 367,
+        "fields": {
+            "classId": 9,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 368,
+        "fields": {
+            "classId": 9,
+            "skillId": 7,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 369,
+        "fields": {
+            "classId": 9,
+            "skillId": 9,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 370,
+        "fields": {
+            "classId": 9,
+            "skillId": 10,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 371,
+        "fields": {
+            "classId": 9,
+            "skillId": 8,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 372,
+        "fields": {
+            "classId": 9,
+            "skillId": 11,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 373,
+        "fields": {
+            "classId": 9,
+            "skillId": 12,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 374,
+        "fields": {
+            "classId": 9,
+            "skillId": 13,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 375,
+        "fields": {
+            "classId": 9,
+            "skillId": 14,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 376,
+        "fields": {
+            "classId": 9,
+            "skillId": 15,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 377,
+        "fields": {
+            "classId": 9,
+            "skillId": 16,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 378,
+        "fields": {
+            "classId": 9,
+            "skillId": 17,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 379,
+        "fields": {
+            "classId": 9,
+            "skillId": 18,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 380,
+        "fields": {
+            "classId": 9,
+            "skillId": 19,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 381,
+        "fields": {
+            "classId": 9,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 382,
+        "fields": {
+            "classId": 9,
+            "skillId": 21,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 383,
+        "fields": {
+            "classId": 9,
+            "skillId": 22,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 384,
+        "fields": {
+            "classId": 9,
+            "skillId": 23,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 385,
+        "fields": {
+            "classId": 9,
+            "skillId": 24,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 386,
+        "fields": {
+            "classId": 9,
+            "skillId": 25,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 387,
+        "fields": {
+            "classId": 9,
+            "skillId": 26,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 388,
+        "fields": {
+            "classId": 9,
+            "skillId": 27,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 389,
+        "fields": {
+            "classId": 9,
+            "skillId": 28,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 390,
+        "fields": {
+            "classId": 9,
+            "skillId": 29,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 391,
+        "fields": {
+            "classId": 9,
+            "skillId": 30,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 392,
+        "fields": {
+            "classId": 9,
+            "skillId": 31,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 393,
+        "fields": {
+            "classId": 9,
+            "skillId": 32,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 394,
+        "fields": {
+            "classId": 9,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 395,
+        "fields": {
+            "classId": 9,
+            "skillId": 34,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 396,
+        "fields": {
+            "classId": 9,
+            "skillId": 35,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 397,
+        "fields": {
+            "classId": 9,
+            "skillId": 36,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 398,
+        "fields": {
+            "classId": 9,
+            "skillId": 37,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 399,
+        "fields": {
+            "classId": 9,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 400,
+        "fields": {
+            "classId": 9,
+            "skillId": 39,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 401,
+        "fields": {
+            "classId": 9,
+            "skillId": 40,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 402,
+        "fields": {
+            "classId": 9,
+            "skillId": 41,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 403,
+        "fields": {
+            "classId": 9,
+            "skillId": 42,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 404,
+        "fields": {
+            "classId": 9,
+            "skillId": 43,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 405,
+        "fields": {
+            "classId": 9,
+            "skillId": 45,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 406,
+        "fields": {
+            "classId": 9,
+            "skillId": 44,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 407,
+        "fields": {
+            "classId": 10,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 408,
+        "fields": {
+            "classId": 10,
+            "skillId": 2,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 409,
+        "fields": {
+            "classId": 10,
+            "skillId": 4,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 410,
+        "fields": {
+            "classId": 10,
+            "skillId": 3,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 411,
+        "fields": {
+            "classId": 10,
+            "skillId": 5,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 412,
+        "fields": {
+            "classId": 10,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 413,
+        "fields": {
+            "classId": 10,
+            "skillId": 7,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 414,
+        "fields": {
+            "classId": 10,
+            "skillId": 8,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 415,
+        "fields": {
+            "classId": 10,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 416,
+        "fields": {
+            "classId": 10,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 417,
+        "fields": {
+            "classId": 10,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 418,
+        "fields": {
+            "classId": 10,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 419,
+        "fields": {
+            "classId": 10,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 420,
+        "fields": {
+            "classId": 10,
+            "skillId": 14,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 421,
+        "fields": {
+            "classId": 10,
+            "skillId": 15,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 422,
+        "fields": {
+            "classId": 10,
+            "skillId": 16,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 423,
+        "fields": {
+            "classId": 10,
+            "skillId": 17,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 424,
+        "fields": {
+            "classId": 10,
+            "skillId": 18,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 425,
+        "fields": {
+            "classId": 10,
+            "skillId": 19,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 426,
+        "fields": {
+            "classId": 10,
+            "skillId": 20,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 427,
+        "fields": {
+            "classId": 10,
+            "skillId": 21,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 428,
+        "fields": {
+            "classId": 10,
+            "skillId": 22,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 429,
+        "fields": {
+            "classId": 10,
+            "skillId": 23,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 430,
+        "fields": {
+            "classId": 10,
+            "skillId": 24,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 431,
+        "fields": {
+            "classId": 10,
+            "skillId": 25,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 432,
+        "fields": {
+            "classId": 10,
+            "skillId": 26,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 433,
+        "fields": {
+            "classId": 10,
+            "skillId": 27,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 434,
+        "fields": {
+            "classId": 10,
+            "skillId": 28,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 435,
+        "fields": {
+            "classId": 10,
+            "skillId": 29,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 436,
+        "fields": {
+            "classId": 10,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 437,
+        "fields": {
+            "classId": 10,
+            "skillId": 30,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 438,
+        "fields": {
+            "classId": 10,
+            "skillId": 32,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 439,
+        "fields": {
+            "classId": 10,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 440,
+        "fields": {
+            "classId": 10,
+            "skillId": 34,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 441,
+        "fields": {
+            "classId": 10,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 442,
+        "fields": {
+            "classId": 10,
+            "skillId": 36,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 443,
+        "fields": {
+            "classId": 10,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 444,
+        "fields": {
+            "classId": 10,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 445,
+        "fields": {
+            "classId": 10,
+            "skillId": 39,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 446,
+        "fields": {
+            "classId": 10,
+            "skillId": 40,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 447,
+        "fields": {
+            "classId": 10,
+            "skillId": 41,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 448,
+        "fields": {
+            "classId": 10,
+            "skillId": 43,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 449,
+        "fields": {
+            "classId": 10,
+            "skillId": 42,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 450,
+        "fields": {
+            "classId": 10,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 451,
+        "fields": {
+            "classId": 10,
+            "skillId": 45,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 452,
+        "fields": {
+            "classId": 11,
+            "skillId": 1,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 453,
+        "fields": {
+            "classId": 11,
+            "skillId": 2,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 454,
+        "fields": {
+            "classId": 11,
+            "skillId": 3,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 455,
+        "fields": {
+            "classId": 11,
+            "skillId": 4,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 456,
+        "fields": {
+            "classId": 11,
+            "skillId": 5,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 457,
+        "fields": {
+            "classId": 11,
+            "skillId": 7,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 458,
+        "fields": {
+            "classId": 11,
+            "skillId": 6,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 459,
+        "fields": {
+            "classId": 11,
+            "skillId": 8,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 460,
+        "fields": {
+            "classId": 11,
+            "skillId": 10,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 461,
+        "fields": {
+            "classId": 11,
+            "skillId": 9,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 462,
+        "fields": {
+            "classId": 11,
+            "skillId": 11,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 463,
+        "fields": {
+            "classId": 11,
+            "skillId": 12,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 464,
+        "fields": {
+            "classId": 11,
+            "skillId": 13,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 465,
+        "fields": {
+            "classId": 11,
+            "skillId": 14,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 466,
+        "fields": {
+            "classId": 11,
+            "skillId": 15,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 467,
+        "fields": {
+            "classId": 11,
+            "skillId": 16,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 468,
+        "fields": {
+            "classId": 11,
+            "skillId": 17,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 469,
+        "fields": {
+            "classId": 11,
+            "skillId": 18,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 470,
+        "fields": {
+            "classId": 11,
+            "skillId": 19,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 471,
+        "fields": {
+            "classId": 11,
+            "skillId": 20,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 472,
+        "fields": {
+            "classId": 11,
+            "skillId": 21,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 473,
+        "fields": {
+            "classId": 11,
+            "skillId": 22,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 474,
+        "fields": {
+            "classId": 11,
+            "skillId": 23,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 475,
+        "fields": {
+            "classId": 11,
+            "skillId": 24,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 476,
+        "fields": {
+            "classId": 11,
+            "skillId": 26,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 477,
+        "fields": {
+            "classId": 11,
+            "skillId": 25,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 478,
+        "fields": {
+            "classId": 11,
+            "skillId": 27,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 479,
+        "fields": {
+            "classId": 11,
+            "skillId": 28,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 480,
+        "fields": {
+            "classId": 11,
+            "skillId": 29,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 481,
+        "fields": {
+            "classId": 11,
+            "skillId": 30,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 482,
+        "fields": {
+            "classId": 11,
+            "skillId": 32,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 483,
+        "fields": {
+            "classId": 11,
+            "skillId": 31,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 484,
+        "fields": {
+            "classId": 11,
+            "skillId": 33,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 485,
+        "fields": {
+            "classId": 11,
+            "skillId": 34,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 486,
+        "fields": {
+            "classId": 11,
+            "skillId": 35,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 487,
+        "fields": {
+            "classId": 11,
+            "skillId": 36,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 488,
+        "fields": {
+            "classId": 11,
+            "skillId": 37,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 489,
+        "fields": {
+            "classId": 11,
+            "skillId": 38,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 490,
+        "fields": {
+            "classId": 11,
+            "skillId": 39,
+            "value": true
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 491,
+        "fields": {
+            "classId": 11,
+            "skillId": 40,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 492,
+        "fields": {
+            "classId": 11,
+            "skillId": 41,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 493,
+        "fields": {
+            "classId": 11,
+            "skillId": 42,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 494,
+        "fields": {
+            "classId": 11,
+            "skillId": 43,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 495,
+        "fields": {
+            "classId": 11,
+            "skillId": 44,
+            "value": false
+        }
+    },
+    {
+        "model": "HeroForgeApi.classSkill",
+        "pk": 496,
+        "fields": {
+            "classId": 11,
+            "skillId": 45,
+            "value": false
+        }
+    }
+]

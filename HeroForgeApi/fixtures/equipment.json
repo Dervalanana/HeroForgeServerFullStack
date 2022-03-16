@@ -1,0 +1,68 @@
+[
+    {
+        "model": "HeroForgeApi.equipment",
+        "pk": 1,
+        "fields": {
+            "name" : "Dagger",
+            "armorType" : "",
+            "armorBonus" : null,
+            "shieldBonus" : null,
+            "ACP" : null,
+            "ASF" : null,
+            "maxDex" : null,
+            "weaponType" : "light",
+            "weaponUsage" : "one-handed",
+            "mediumDamage" : "1d4",
+            "mediumWeight" : 1,
+            "finesse" : true,
+            "reach" : 5,
+            "range" : 10,
+            "damageType" : "P/S",
+            "special" : ""
+        }
+    },
+    {
+        "model": "HeroForgeApi.equipment",
+        "pk": 2,
+        "fields": {
+            "name" : "Padded",
+            "armorType" : "light",
+            "armorBonus" : "+1",
+            "shieldBonus" : null,
+            "ACP" : 0,
+            "ASF" : 5,
+            "maxDex" : 8,
+            "weaponType" : "",
+            "weaponUsage" : "",
+            "mediumDamage" : "",
+            "mediumWeight" : 10,
+            "finesse" : false,
+            "reach" : null,
+            "range" : null,
+            "damageType" : null,
+            "special" : ""
+        }
+    },
+    {
+        "model": "HeroForgeApi.equipment",
+        "pk": 3,
+        "fields": {
+            "name" : "Buckler",
+            "armorType" : "shield",
+            "armorBonus" : null,
+            "shieldBonus" : 1,
+            "ACP" : 1,
+            "ASF" : 5,
+            "maxDex" : null,
+            "weaponType" : "",
+            "weaponUsage" : "",
+            "mediumDamage" : "",
+            "mediumWeight" : 5,
+            "finesse" : false,
+            "reach" : null,
+            "range" : null,
+            "damageType" : null,
+            "special" : ""
+        }
+    }
+]

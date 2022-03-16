@@ -1,0 +1,154 @@
+[
+    {
+        "model": "HeroForgeApi.character",
+        "pk": 1,
+        "fields": {
+            "xp": 0,
+            "name": "Perrin Aybara",
+            "campaign": "WoT",
+            "str": 26,
+            "dex": 16,
+            "con": 25,
+            "int": 23,
+            "wis": 22,
+            "cha": 18,
+            "userId": 1,
+            "raceId": 1,
+            "proficiencies": [],
+            "equipment": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.character",
+        "pk": 2,
+        "fields": {
+            "xp": 0,
+            "name": "Mat Cauthon",
+            "campaign": "WoT",
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "userId": 1,
+            "raceId": 1,
+            "proficiencies": [],
+            "equipment": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.character",
+        "pk": 3,
+        "fields": {
+            "xp": 0,
+            "name": "Al'Lan Mandragoran",
+            "campaign": "WoT",
+            "str": 22,
+            "dex": 20,
+            "con": 20,
+            "int": 19,
+            "wis": 17,
+            "cha": 17,
+            "userId": 4,
+            "raceId": 1,
+            "proficiencies": [],
+            "equipment": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.character",
+        "pk": 4,
+        "fields": {
+            "xp": 0,
+            "name": "Rand Al'thor",
+            "campaign": "WoT",
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "userId": 4,
+            "raceId": 1,
+            "proficiencies": [],
+            "equipment": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.character",
+        "pk": 5,
+        "fields": {
+            "xp": 0,
+            "name": "Matrim Cauthon",
+            "campaign": "WoT",
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "userId": 4,
+            "raceId": 1,
+            "proficiencies": [],
+            "equipment": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.character",
+        "pk": 6,
+        "fields": {
+            "xp": 0,
+            "name": "Perrin Aybara",
+            "campaign": "WoT",
+            "str": 17,
+            "dex": 10,
+            "con": 15,
+            "int": 13,
+            "wis": 16,
+            "cha": 13,
+            "userId": 4,
+            "raceId": 2,
+            "proficiencies": [],
+            "equipment": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.character",
+        "pk": 7,
+        "fields": {
+            "xp": 0,
+            "name": "Egwene Al-ver",
+            "campaign": "WoT",
+            "str": 13,
+            "dex": 14,
+            "con": 16,
+            "int": 16,
+            "wis": 17,
+            "cha": 14,
+            "userId": 4,
+            "raceId": 1,
+            "proficiencies": [],
+            "equipment": []
+        }
+    },
+    {
+        "model": "HeroForgeApi.character",
+        "pk": 8,
+        "fields": {
+            "xp": 0,
+            "name": "Test",
+            "campaign": "userefrtest",
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "userId": 4,
+            "raceId": 1,
+            "proficiencies": [],
+            "equipment": []
+        }
+    }
+]
