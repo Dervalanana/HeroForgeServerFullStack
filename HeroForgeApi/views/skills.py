@@ -38,7 +38,7 @@ class SkillView(ViewSet):
         Returns
             Response -- JSON serialized skill instance
         """
-        if request.auth.user.is_staff:
+        if request.auth.user.is_staff: #only admins can C-UD
             skill = Skill.objects.create(
                 name=request.data['name'],
                 trainedOnly=request.data['trainedOnly'],
@@ -47,18 +47,19 @@ class SkillView(ViewSet):
             )
             levels = Level.objects.all()
             classes = Classs.objects.all()
+            #whenver you create a new skill, it needs to be linked to all existing levels and classes
             for level in levels:
                 LevelSkill.objects.create(
                     level=level,
                     skill=skill,
                     points=0,
-                    multiTypeName=""
+                    multiTypeName="" #same for this
                 )
             for classs in classes:
                 ClassSkill.objects.create(
                     classs=classs,
                     skill=skill,
-                    value= False
+                    value= False #you can always edit this at a later time
                 )
             serializer = SkillSerializer(skill)
             return Response(serializer.data, status=201)
@@ -71,7 +72,7 @@ class SkillView(ViewSet):
         Returns
             Response --- 204 no content
         """
-        if request.auth.user.is_staff:
+        if request.auth.user.is_staff: #only admins can C-UD
             skill = Skill.objects.get(pk=pk)
             skill.delete()
             return Response(None, status=status.HTTP_204_NO_CONTENT)
@@ -84,7 +85,7 @@ class SkillView(ViewSet):
         Returns:
             Response -- Empty body with 204 status code
         """
-        if request.auth.user.is_staff:
+        if request.auth.user.is_staff: #only admins can C-UD
             print(request.data['trainedOnly'])
             skill = Skill.objects.get(pk=pk)
             skill.name=request.data['name']
