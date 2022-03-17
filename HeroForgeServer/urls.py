@@ -18,12 +18,14 @@ from django.conf.urls import include
 from django.urls import path
 from rest_framework import routers
 from HeroForgeApi.views.auth import login_user, register_user
+from HeroForgeApi.views.feats import FeatView
 from HeroForgeApi.views.races import RaceView
 from HeroForgeApi.views.skills import SkillView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'skills', SkillView, 'skill')
 router.register(r'races', RaceView, 'race')
+router.register(r'feats', FeatView, 'feat')
 
 urlpatterns = [
     path('register', register_user),
