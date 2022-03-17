@@ -8,5 +8,5 @@ class Race(models.Model):
     speed = models.CharField(max_length=55)
     altSpeedType = models.CharField(max_length=55, blank=True)
     altSpeed = models.PositiveSmallIntegerField(blank=True, null=True)
-    featId = models.ForeignKey("Feat", models.SET_NULL, blank=True, null=True)
-    featSetId = models.ForeignKey("FeatSet", models.SET_NULL, blank=True, null=True)
+    feat = models.ForeignKey("Feat", models.SET_NULL, blank=True, null=True)
+    featSet = models.ForeignKey("FeatSet", models.SET_NULL, blank=True, null=True)

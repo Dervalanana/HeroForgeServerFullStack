@@ -2,5 +2,5 @@ from django.db import models
 
 
 class FeatOption(models.Model):
-    featId = models.ForeignKey("Feat", on_delete=models.CASCADE)
-    featSetId = models.ForeignKey("FeatSet", on_delete=models.CASCADE)
+    feat = models.ForeignKey("Feat", on_delete=models.CASCADE)
+    featSet = models.ForeignKey("FeatSet", on_delete=models.CASCADE)
