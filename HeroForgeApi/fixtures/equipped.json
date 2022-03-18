@@ -3,24 +3,24 @@
         "model": "HeroForgeApi.equipped",
         "pk": 1,
         "fields": {
-            "equipmentId": 1,
-            "characterId": 1
+            "equipment": 1,
+            "character": 1
         }
     },
     {
         "model": "HeroForgeApi.equipped",
         "pk": 1,
         "fields": {
-            "equipmentId": 2,
-            "characterId": 1
+            "equipment": 2,
+            "character": 1
         }
     },
     {
         "model": "HeroForgeApi.equipped",
         "pk": 1,
         "fields": {
-            "equipmentId": 3,
-            "characterId": 1
+            "equipment": 3,
+            "character": 1
         }
     }
 ]

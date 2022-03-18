@@ -3,12 +3,12 @@
         "model": "HeroForgeApi.level",
         "pk": 1,
         "fields": {
-            "characterId": 1,
-            "classId": 5,
+            "character": 1,
+            "classs": 5,
             "characterLevel": 1,
             "HDRoll": 4,
             "statIncrease": "",
-            "featId": 20,
+            "feat": 20,
             "levelSkills": []
         }
     },
@@ -16,12 +16,12 @@
         "model": "HeroForgeApi.level",
         "pk": 7,
         "fields": {
-            "characterId": 2,
-            "classId": 0,
+            "character": 2,
+            "classs": 0,
             "characterLevel": 1,
             "HDRoll": 0,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -29,12 +29,12 @@
         "model": "HeroForgeApi.level",
         "pk": 8,
         "fields": {
-            "characterId": 1,
-            "classId": 4,
+            "character": 1,
+            "classs": 4,
             "characterLevel": 2,
             "HDRoll": 3,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -42,12 +42,12 @@
         "model": "HeroForgeApi.level",
         "pk": 9,
         "fields": {
-            "characterId": 1,
-            "classId": 5,
+            "character": 1,
+            "classs": 5,
             "characterLevel": 3,
             "HDRoll": 4,
             "statIncrease": "",
-            "featId": 22,
+            "feat": 22,
             "levelSkills": []
         }
     },
@@ -55,12 +55,12 @@
         "model": "HeroForgeApi.level",
         "pk": 10,
         "fields": {
-            "characterId": 1,
-            "classId": 4,
+            "character": 1,
+            "classs": 4,
             "characterLevel": 4,
             "HDRoll": 3,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -68,12 +68,12 @@
         "model": "HeroForgeApi.level",
         "pk": 11,
         "fields": {
-            "characterId": 1,
-            "classId": 5,
+            "character": 1,
+            "classs": 5,
             "characterLevel": 5,
             "HDRoll": 6,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -81,12 +81,12 @@
         "model": "HeroForgeApi.level",
         "pk": 12,
         "fields": {
-            "characterId": 1,
-            "classId": 4,
+            "character": 1,
+            "classs": 4,
             "characterLevel": 6,
             "HDRoll": 4,
             "statIncrease": "",
-            "featId": 23,
+            "feat": 23,
             "levelSkills": []
         }
     },
@@ -94,12 +94,12 @@
         "model": "HeroForgeApi.level",
         "pk": 13,
         "fields": {
-            "characterId": 1,
-            "classId": 5,
+            "character": 1,
+            "classs": 5,
             "characterLevel": 7,
             "HDRoll": 0,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -107,12 +107,12 @@
         "model": "HeroForgeApi.level",
         "pk": 14,
         "fields": {
-            "characterId": 3,
-            "classId": 5,
+            "character": 3,
+            "classs": 5,
             "characterLevel": 1,
             "HDRoll": 1,
             "statIncrease": "",
-            "featId": 28,
+            "feat": 28,
             "levelSkills": []
         }
     },
@@ -120,12 +120,12 @@
         "model": "HeroForgeApi.level",
         "pk": 15,
         "fields": {
-            "characterId": 4,
-            "classId": 0,
+            "character": 4,
+            "classs": 0,
             "characterLevel": 1,
             "HDRoll": 0,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -133,12 +133,12 @@
         "model": "HeroForgeApi.level",
         "pk": 16,
         "fields": {
-            "characterId": 5,
-            "classId": 0,
+            "character": 5,
+            "classs": 0,
             "characterLevel": 1,
             "HDRoll": 0,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -146,12 +146,12 @@
         "model": "HeroForgeApi.level",
         "pk": 17,
         "fields": {
-            "characterId": 6,
-            "classId": 5,
+            "character": 6,
+            "classs": 5,
             "characterLevel": 1,
             "HDRoll": 8,
             "statIncrease": "",
-            "featId": 4,
+            "feat": 4,
             "levelSkills": []
         }
     },
@@ -159,12 +159,12 @@
         "model": "HeroForgeApi.level",
         "pk": 18,
         "fields": {
-            "characterId": 3,
-            "classId": 5,
+            "character": 3,
+            "classs": 5,
             "characterLevel": 2,
             "HDRoll": 9,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -172,12 +172,12 @@
         "model": "HeroForgeApi.level",
         "pk": 19,
         "fields": {
-            "characterId": 3,
-            "classId": 5,
+            "character": 3,
+            "classs": 5,
             "characterLevel": 3,
             "HDRoll": 4,
             "statIncrease": "",
-            "featId": 28,
+            "feat": 28,
             "levelSkills": []
         }
     },
@@ -185,12 +185,12 @@
         "model": "HeroForgeApi.level",
         "pk": 20,
         "fields": {
-            "characterId": 3,
-            "classId": 5,
+            "character": 3,
+            "classs": 5,
             "characterLevel": 4,
             "HDRoll": 5,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -198,12 +198,12 @@
         "model": "HeroForgeApi.level",
         "pk": 21,
         "fields": {
-            "characterId": 3,
-            "classId": 5,
+            "character": 3,
+            "classs": 5,
             "characterLevel": 5,
             "HDRoll": 10,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -211,12 +211,12 @@
         "model": "HeroForgeApi.level",
         "pk": 41,
         "fields": {
-            "characterId": 6,
-            "classId": 4,
+            "character": 6,
+            "classs": 4,
             "characterLevel": 2,
             "HDRoll": 5,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -224,12 +224,12 @@
         "model": "HeroForgeApi.level",
         "pk": 42,
         "fields": {
-            "characterId": 6,
-            "classId": 5,
+            "character": 6,
+            "classs": 5,
             "characterLevel": 3,
             "HDRoll": 7,
             "statIncrease": "",
-            "featId": 21,
+            "feat": 21,
             "levelSkills": []
         }
     },
@@ -237,12 +237,12 @@
         "model": "HeroForgeApi.level",
         "pk": 43,
         "fields": {
-            "characterId": 6,
-            "classId": 4,
+            "character": 6,
+            "classs": 4,
             "characterLevel": 4,
             "HDRoll": 3,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -250,12 +250,12 @@
         "model": "HeroForgeApi.level",
         "pk": 44,
         "fields": {
-            "characterId": 6,
-            "classId": 4,
+            "character": 6,
+            "classs": 4,
             "characterLevel": 5,
             "HDRoll": 5,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -263,12 +263,12 @@
         "model": "HeroForgeApi.level",
         "pk": 45,
         "fields": {
-            "characterId": 6,
-            "classId": 5,
+            "character": 6,
+            "classs": 5,
             "characterLevel": 6,
             "HDRoll": 6,
             "statIncrease": "",
-            "featId": 12,
+            "feat": 12,
             "levelSkills": []
         }
     },
@@ -276,12 +276,12 @@
         "model": "HeroForgeApi.level",
         "pk": 46,
         "fields": {
-            "characterId": 6,
-            "classId": 4,
+            "character": 6,
+            "classs": 4,
             "characterLevel": 7,
             "HDRoll": 7,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -289,12 +289,12 @@
         "model": "HeroForgeApi.level",
         "pk": 47,
         "fields": {
-            "characterId": 6,
-            "classId": 5,
+            "character": 6,
+            "classs": 5,
             "characterLevel": 8,
             "HDRoll": 10,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -302,12 +302,12 @@
         "model": "HeroForgeApi.level",
         "pk": 48,
         "fields": {
-            "characterId": 7,
-            "classId": 3,
+            "character": 7,
+            "classs": 3,
             "characterLevel": 1,
             "HDRoll": 3,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -315,12 +315,12 @@
         "model": "HeroForgeApi.level",
         "pk": 49,
         "fields": {
-            "characterId": 7,
-            "classId": 3,
+            "character": 7,
+            "classs": 3,
             "characterLevel": 2,
             "HDRoll": 3,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     },
@@ -328,12 +328,12 @@
         "model": "HeroForgeApi.level",
         "pk": 50,
         "fields": {
-            "characterId": 8,
-            "classId": 9,
+            "character": 8,
+            "classs": 9,
             "characterLevel": 1,
             "HDRoll": 5,
             "statIncrease": "",
-            "featId": 0,
+            "feat": 0,
             "levelSkills": []
         }
     }
