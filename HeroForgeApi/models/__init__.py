@@ -10,3 +10,5 @@ from .level import Level
 from .levelSkill import LevelSkill
 from .characterFeat import CharacterFeat
 from .classLevel import ClassLevel
+from .equipment import Equipment
+from .equipped import Equipped

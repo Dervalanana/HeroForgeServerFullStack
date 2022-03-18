@@ -86,7 +86,6 @@ class SkillView(ViewSet):
             Response -- Empty body with 204 status code
         """
         if request.auth.user.is_staff: #only admins can C-UD
-            print(request.data['trainedOnly'])
             skill = Skill.objects.get(pk=pk)
             skill.name=request.data['name']
             skill.trainedOnly=request.data['trainedOnly']

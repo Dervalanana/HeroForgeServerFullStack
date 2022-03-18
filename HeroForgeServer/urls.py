@@ -19,6 +19,7 @@ from django.urls import path
 from rest_framework import routers
 from HeroForgeApi.views.auth import login_user, register_user
 from HeroForgeApi.views.classes import ClasssView
+from HeroForgeApi.views.equipment import EquipmentView
 from HeroForgeApi.views.featSet import FeatSetView
 from HeroForgeApi.views.feats import FeatView
 from HeroForgeApi.views.races import RaceView
@@ -30,6 +31,7 @@ router.register(r'races', RaceView, 'race')
 router.register(r'feats', FeatView, 'feat')
 router.register(r'featSets', FeatSetView, 'featSet')
 router.register(r'classes', ClasssView, 'classs')
+router.register(r'equipment', EquipmentView, 'equipment')
 
 urlpatterns = [
     path('register', register_user),
