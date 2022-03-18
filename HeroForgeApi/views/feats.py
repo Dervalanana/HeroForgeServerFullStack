@@ -2,8 +2,10 @@
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
+from rest_framework.decorators import action
 from rest_framework import serializers, status
-from HeroForgeApi.models import Feat, Classs
+from HeroForgeApi.models import Feat, Classs, CharacterFeat
+from HeroForgeApi.models.character import Character
 
 
 class FeatView(ViewSet):
@@ -137,6 +139,31 @@ class FeatView(ViewSet):
             return Response(None, status=status.HTTP_204_NO_CONTENT)
         else:
             return Response({'message': "how did you find this"}, status=403)
+
+    @action(methods=['POST'], detail=False)
+    def learn(self, request):
+        """lets a character learn a feat"""
+        if (request.data['characterId'].user == request.auth.user or request.auth.user.is_staff):
+            try:
+                learnedFeat = CharacterFeat.objects.get(request.data['characterId'],source=request.data['source'],
+                                        sourceId=request.data['sourceId'])
+                learnedFeat.feat = Feat.objects.get(pk=request.data.feat)
+                learnedFeat.save()
+            except:
+                learnedFeat = CharacterFeat.objects.create(
+                    feat = Feat.objects.get(pk=request.data.feat),
+                    character = Character.objects.get(pk=request.data.characterId),
+                    source = request.data.source,
+                    sourceId = request.data.sourceId
+                )
+                if(request.data['specificOption'] is not None):
+                    learnedFeat.specificOption = request.data['specificOption']
+                else:
+                    learnedFeat.specificOption = ''
+                if(request.data['optionSource'] is not None):
+                    learnedFeat.optionSource = request.data['optionSource']
+                else:
+                    learnedFeat.optionSource = ''
 
 
 class FeatSerializer(serializers.ModelSerializer):

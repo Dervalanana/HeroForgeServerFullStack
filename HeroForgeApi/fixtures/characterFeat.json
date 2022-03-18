@@ -3,8 +3,8 @@
         "model": "HeroForgeApi.characterfeat",
         "pk": 1,
         "fields": {
-            "featId" : 1,
-            "characterId" : 1,
+            "feat" : 1,
+            "character" : 1,
             "specificOption" : null,
             "optionSource" : "",
             "source" : "Race",

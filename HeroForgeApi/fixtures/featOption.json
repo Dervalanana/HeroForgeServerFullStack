@@ -3,8 +3,8 @@
         "model": "HeroForgeApi.featOption",
         "pk": 1,
         "fields": {
-            "featId": 10,
-            "featSetId": 1
+            "feat": 10,
+            "featSet": 1
         }
     }
 ]
