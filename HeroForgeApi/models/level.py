@@ -7,5 +7,7 @@ class Level(models.Model):
     characterLevel = models.PositiveSmallIntegerField()
     HDRoll = models.PositiveSmallIntegerField(default=0)
     statIncrease = models.CharField(max_length=3, blank=True, null=True)
-    feat = models.ForeignKey("Feat",on_delete=models.SET_DEFAULT, default=0, blank=True, null=True)
+    feat = models.ForeignKey("Feat",on_delete=models.SET_DEFAULT, default=None, blank=True, null=True, related_name='+')
     levelSkills = models.ManyToManyField(Skill, through="LevelSkill")
+    classFeat = models.ForeignKey("Feat", on_delete=models.SET_DEFAULT, blank=True, null=True, default=None, related_name='+')
+    levelDetails = models.ForeignKey("ClassLevel", on_delete=models.SET_NULL, blank=True, null=True, default=None, related_name='+')
