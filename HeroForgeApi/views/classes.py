@@ -153,11 +153,11 @@ class ClasssView(ViewSet):
             return Response({'message': "how did you find this"}, status=403)
     
     @action(methods=['PUT'], detail=True)
-    def updateClassSkills(self, request, pk):
+    def update_class_skills(self, request, pk):
         """lets a character learn a feat"""
         if (request.auth.user.is_staff):
             for skill in request.data:
-                classSkill = ClassSkill.objects.get(classs=pk, skill=skill)
+                classSkill = ClassSkill.objects.get(classs=pk, skill=Skill.objects.get(pk=skill.id))
                 classSkill.value = skill.value
                 classSkill.save()
                 return Response(None, status=status.HTTP_204_NO_CONTENT)
@@ -171,5 +171,12 @@ class ClasssSerializer(serializers.ModelSerializer):
     class Meta:
         model = Classs
         fields = ('id', 'name', 'skillPoints', "HD",
-                  "classSkills", "levelDetails")
+                  "skillProficiency")
         depth = 1
+        
+class ClassLevelSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ClassLevel
+        fields = ("id", "level", "features", "BAB","Fort","Ref","Will",
+                  "fixedFeat","featSet")
+        depth = 2

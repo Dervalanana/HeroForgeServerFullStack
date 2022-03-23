@@ -10,3 +10,4 @@ class Race(models.Model):
     altSpeed = models.PositiveSmallIntegerField(blank=True, null=True)
     feat = models.ForeignKey("Feat", models.SET_NULL, blank=True, null=True)
     featSet = models.ForeignKey("FeatSet", models.SET_NULL, blank=True, null=True)
+    racialProficiency = models.ManyToManyField("Equipment", through="proficient", blank=True, null=True)

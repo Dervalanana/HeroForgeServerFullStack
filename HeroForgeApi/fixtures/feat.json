@@ -1,26 +1,9 @@
 [
     {
       "model": "HeroForgeApi.feat",
-      "pk": 0,
       "fields": {
         "name": "",
-        "description": "",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": ""
       }
     },
     {
@@ -28,23 +11,7 @@
       "pk": 1,
       "fields": {
         "name": "Acrobatic",
-        "description": "+2 on tumble and jump checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 on tumble and jump checks"
       }
     },
     {
@@ -52,23 +19,7 @@
       "pk": 2,
       "fields": {
         "name": "Agile",
-        "description": "+2 on Balance and Escape Artist checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 on Balance and Escape Artist checks"
       }
     },
     {
@@ -76,23 +27,7 @@
       "pk": 3,
       "fields": {
         "name": "Alertness",
-        "description": "+2 on Listen and Spot checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 on Listen and Spot checks"
       }
     },
     {
@@ -100,23 +35,7 @@
       "pk": 4,
       "fields": {
         "name": "Animal Affinity",
-        "description": "+2 on Handle Animal and Ride checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 on Handle Animal and Ride checks"
       }
     },
     {
@@ -124,23 +43,7 @@
       "pk": 5,
       "fields": {
         "name": "Armor Proficiency (Light)",
-        "description": "No armor check penalty on attacks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "No armor check penalty on attacks"
       }
     },
     {
@@ -148,23 +51,7 @@
       "pk": 6,
       "fields": {
         "name": "Armor Proficiency (Medium)",
-        "description": "No armor check penalties on attacks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "No armor check penalties on attacks"
       }
     },
     {
@@ -172,23 +59,7 @@
       "pk": 7,
       "fields": {
         "name": "Armor Proficiency (Heavy)",
-        "description": "No armor check penalty on attack rolls",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "No armor check penalty on attack rolls"
       }
     },
     {
@@ -196,23 +67,7 @@
       "pk": 8,
       "fields": {
         "name": "Athletic",
-        "description": "+2 bonus on Climb and Swim checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 bonus on Climb and Swim checks"
       }
     },
     {
@@ -220,23 +75,7 @@
       "pk": 9,
       "fields": {
         "name": "Augment Summoning",
-        "description": "Summoned creatures gain +4 Str and Con",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "Summoned creatures gain +4 Str and Con"
       }
     },
     {
@@ -244,23 +83,7 @@
       "pk": 10,
       "fields": {
         "name": "Blind Fight",
-        "description": "Reroll miss chance for concealment",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "Reroll miss chance for concealment"
       }
     },
     {
@@ -268,23 +91,7 @@
       "pk": 11,
       "fields": {
         "name": "Combat Casting",
-        "description": "+4 bonus on concentrate checks for defensive casting",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+4 bonus on concentrate checks for defensive casting"
       }
     },
     {
@@ -293,22 +100,7 @@
       "fields": {
         "name": "Combat Expertise",
         "description": "Trade attack bonus for AC (max 5 points)",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 13,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "intPR": 13
       }
     },
     {
@@ -317,22 +109,7 @@
       "fields": {
         "name": "Improved Disarm",
         "description": "+4 bonus on disarm attempts; no attacks of opportunity",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 12,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "feat1PR": 12
       }
     },
     {
@@ -341,22 +118,7 @@
       "fields": {
         "name": "Improved Trip",
         "description": "+4 bonus on trip attempts; no attacks of opportunity",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 12,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "feat1PR": 12
       }
     },
     {
@@ -365,22 +127,7 @@
       "fields": {
         "name": "Improved Feint",
         "description": "Feint in combat as move action",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 12,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "feat1PR": 12
       }
     },
     {
@@ -388,23 +135,7 @@
       "pk": 16,
       "fields": {
         "name": "Combat Reflexes",
-        "description": "Additional attacks of opportunity",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "Additional attacks of opportunity"
       }
     },
     {
@@ -412,23 +143,7 @@
       "pk": 17,
       "fields": {
         "name": "Deceitful",
-        "description": "+2 bonus on Disguise and Forgery checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 bonus on Disguise and Forgery checks"
       }
     },
     {
@@ -436,23 +151,7 @@
       "pk": 18,
       "fields": {
         "name": "Deft Hands",
-        "description": "+2 bonus on Sleight of Hand and Use Rope checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 bonus on Sleight of Hand and Use Rope checks"
       }
     },
     {
@@ -460,23 +159,7 @@
       "pk": 19,
       "fields": {
         "name": "Diligent",
-        "description": "+2 bonus on Appraise and Decipher Script checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 bonus on Appraise and Decipher Script checks"
       }
     },
     {
@@ -485,22 +168,7 @@
       "fields": {
         "name": "Dodge",
         "description": "+1 dodge bonus to AC against selected target",
-        "strPR": 0,
-        "dexPR": 13,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "dexPR": 13
       }
     },
     {
@@ -509,22 +177,7 @@
       "fields": {
         "name": "Mobility",
         "description": "+4 dodge bonus against some AoO",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 20,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "feat1PR": 20
       }
     },
     {
@@ -533,21 +186,7 @@
       "fields": {
         "name": "Spring Attack",
         "description": "Move before and after melee attack",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
         "feat1PR": 21,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
         "babPR": 4
       }
     },
@@ -557,21 +196,11 @@
       "fields": {
         "name": "Whirlwind Attack",
         "description": "One melee attack against each opponent within reach",
-        "strPR": 0,
         "dexPR": 13,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
         "feat1PR": 12,
         "feat2PR": 20,
         "feat3PR": 21,
         "feat4PR": 22,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
         "babPR": 4
       }
     },
@@ -580,23 +209,7 @@
       "pk": 24,
       "fields": {
         "name": "Endurance",
-        "description": "+4 bonus on checks or saves to resist non-lethal damage",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+4 bonus on checks or saves to resist non-lethal damage"
       }
     },
     {
@@ -605,22 +218,7 @@
       "fields": {
         "name": "Diehard",
         "description": "Remain conscious at -1 to -9 hp",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 24,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "feat1PR": 24
       }
     },
     {
@@ -628,23 +226,7 @@
       "pk": 26,
       "fields": {
         "name": "Eschew Material",
-        "description": "Cast spells without material components",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "Cast spells without material components"
       }
     },
     {
@@ -653,21 +235,6 @@
       "fields": {
         "name": "Exotic Weapon Proficiency",
         "description": "no penalty on attacks with specific exotic weapon",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
         "babPR": 1
       }
     },
@@ -676,23 +243,7 @@
       "pk": 28,
       "fields": {
         "name": "Extra Turning",
-        "description": "Can turn or rebuke 4 more times per day",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "Can turn or rebuke 4 more times per day"
       }
     },
     {
@@ -700,23 +251,7 @@
       "pk": 29,
       "fields": {
         "name": "Great Fortitude",
-        "description": "+2 bonus on Fortitude saves",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+2 bonus on Fortitude saves"
       }
     },
     {
@@ -724,23 +259,7 @@
       "pk": 30,
       "fields": {
         "name": "Improved Counterspell",
-        "description": "Counterspell with Spell of same school",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "Counterspell with Spell of same school"
       }
     },
     {
@@ -749,21 +268,6 @@
       "fields": {
         "name": "Improved Critical",
         "description": "Double threat range of weapon",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
         "babPR": 8
       }
     },
@@ -772,23 +276,7 @@
       "pk": 32,
       "fields": {
         "name": "Improved Initiative",
-        "description": "+4 bonus on initiative checks",
-        "strPR": 0,
-        "dexPR": 0,
-        "conPR": 0,
-        "intPR": 0,
-        "wisPR": 0,
-        "chaPR": 0,
-        "feat1PR": 0,
-        "feat2PR": 0,
-        "feat3PR": 0,
-        "feat4PR": 0,
-        "fortPR": 0,
-        "refPR": 0,
-        "willPR": 0,
-        "classPR": 0,
-        "classLevelPR": 0,
-        "babPR": 0
+        "description": "+4 bonus on initiative checks"
       }
     }
     ]

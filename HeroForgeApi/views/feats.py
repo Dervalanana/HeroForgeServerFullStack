@@ -143,27 +143,24 @@ class FeatView(ViewSet):
     @action(methods=['POST'], detail=False)
     def learn(self, request):
         """lets a character learn a feat"""
-        if (request.data['characterId'].user == request.auth.user or request.auth.user.is_staff):
+        if (Character.objects.get(pk=request.data['characterId']).user == request.auth.user 
+            or request.auth.user.is_staff):
             try:
-                learnedFeat = CharacterFeat.objects.get(request.data['characterId'],source=request.data['source'],
+                learnedFeat = CharacterFeat.objects.get(character=request.data['characterId'],source=request.data['source'],
                                         sourceId=request.data['sourceId'])
-                learnedFeat.feat = Feat.objects.get(pk=request.data.feat)
+                learnedFeat.feat = Feat.objects.get(pk=request.data['feat'])
                 learnedFeat.save()
             except:
                 learnedFeat = CharacterFeat.objects.create(
-                    feat = Feat.objects.get(pk=request.data.feat),
-                    character = Character.objects.get(pk=request.data.characterId),
-                    source = request.data.source,
-                    sourceId = request.data.sourceId
+                    feat = Feat.objects.get(pk=request.data['feat']),
+                    character = Character.objects.get(pk=request.data['characterId']),
+                    source = request.data['source'],
+                    sourceId = request.data['sourceId']
                 )
-                if(request.data['specificOption'] is not None):
-                    learnedFeat.specificOption = request.data['specificOption']
-                else:
-                    learnedFeat.specificOption = ''
-                if(request.data['optionSource'] is not None):
-                    learnedFeat.optionSource = request.data['optionSource']
-                else:
-                    learnedFeat.optionSource = ''
+            serializer = FeatSerializer(learnedFeat.feat)
+            return Response(serializer.data, status=201)
+            
+
 
 
 class FeatSerializer(serializers.ModelSerializer):
@@ -175,3 +172,6 @@ class FeatSerializer(serializers.ModelSerializer):
                   'intPR', 'wisPR', 'chaPR', 'fortPR', 'refPR', 'willPR',
                   'babPR', 'classLevelPR', 'classPR', 'feat1PR', 'feat2PR',
                   'feat3PR', 'feat4PR')
+        depth = 1
+        
+

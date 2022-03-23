@@ -4,7 +4,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework import serializers, status
-from HeroForgeApi.models import Equipment, Character, Equipped
+from HeroForgeApi.models import Equipment, Character, Equipped, Equipment, Proficient, ClassLevel, Race
 
 
 class EquipmentView(ViewSet):
@@ -149,6 +149,15 @@ class EquipmentView(ViewSet):
             return Response(None, status=status.HTTP_204_NO_CONTENT)
         else:
             return Response({'message': "how did you find this"}, status=403)
+        
+    @action(methods=["POST"], detail=False)
+    def addRaceClassFeatProficiency(self, request):
+        """ adds preset proficiencies to be gained upon picking a race or class"""
+        proficient = Proficient.objects.create(equipment= request.data['equipment'])
+        if request.data['class']: proficient.classLevel = ClassLevel.objects.get(classs=request.data['class'],level=1)
+        if request.data['race']: proficient.race = Race.objects.get(pk = request.data['race'])
+        serializer = ProficientSerializer(proficient)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 class EquipmentSerializer(serializers.ModelSerializer):
@@ -164,3 +173,9 @@ class EquippedSerializer(serializers.ModelSerializer):
     class Meta:
         model = Equipped
         fields = ('id', 'equipment','character')
+        
+class ProficientSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Proficient
+        fields = ('id', 'classLevel','race','equipment')
+        depth = 1

@@ -1,0 +1,10 @@
+[
+    {
+        "model": "HeroForgeApi.proficient",
+        "pk": 1,
+        "fields": {
+            "classLevel": 101,
+            "equipment": 1
+        }
+    }
+]

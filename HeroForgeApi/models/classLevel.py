@@ -12,3 +12,4 @@ class ClassLevel(models.Model):
     Fort = models.PositiveSmallIntegerField()
     Ref = models.PositiveSmallIntegerField()
     Will = models.PositiveSmallIntegerField()
+    classProficiency = models.ManyToManyField("Equipment", through="proficient", blank=True, null=True)

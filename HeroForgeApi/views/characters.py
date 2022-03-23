@@ -5,12 +5,13 @@ from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework import serializers, status
 from django.contrib.auth.models import User
-from HeroForgeApi.models import Level, Character, Level, CharacterFeat
+from HeroForgeApi.models import Level, Character, Level, CharacterFeat, Race, ClassSkill
 from HeroForgeApi.models.classLevel import ClassLevel
 from HeroForgeApi.models.classs import Classs
 from HeroForgeApi.models.feat import Feat
 from HeroForgeApi.models.levelSkill import LevelSkill
 from HeroForgeApi.models.skill import Skill
+from HeroForgeApi.views.levels import LevelSerializer
 
 
 class CharactersView(ViewSet):
@@ -25,7 +26,7 @@ class CharactersView(ViewSet):
         if request.auth.user.is_staff:
             characters = Character.objects.all()
         else:
-            characters = Character.objects.filter(user = User.objects.get(pk = request.auth.user))
+            characters = Character.objects.filter(user = request.auth.user)
         serializer = CharactersSerializer(characters, many=True)
         return Response(serializer.data)
     
@@ -44,7 +45,8 @@ class CharactersView(ViewSet):
         Returns
             Response -- JSON serialized characters instance
         """
-        characters = Character.objects.create(
+        #create the character
+        character = Character.objects.create(
             name = request.data['name'],            
             campaign = request.data['campaign'],            
             str = request.data['str'],            
@@ -53,9 +55,23 @@ class CharactersView(ViewSet):
             int = request.data['int'],            
             wis = request.data['wis'],            
             cha = request.data['cha'],
-            user = User.objects.get(pk=request.auth.user)            
+            user = request.auth.user,            
         )
-        serializer = CharactersSerializer(characters)
+        #establish its initial level
+        level = Level.objects.create(
+            character=character,
+            characterLevel = 1,
+            HDRoll = 0,
+        )
+        #create the appropriate level skills
+        skills = Skill.objects.all()
+        for skill in skills:
+            LevelSkill.objects.create(
+                level = level,
+                skill = skill,
+                multiTypeName = ''
+            )
+        serializer = CharactersSerializer(character)
         return Response(serializer.data, status=201)
         
     def destroy(self, request, pk):
@@ -75,50 +91,37 @@ class CharactersView(ViewSet):
 
         Returns:
             Response -- Empty body with 204 status code
-        """    
-    
-    # @action(methods=['PUT'], detail=True)
-    # def changeClass(self, request, pk):
-    #     """lets a character change characterss"""
-    #     try:
-    #         characterFeat = CharacterFeat.get(
-    #             source = "classFeat",
-    #             sourceId = pk
-    #         )
-    #         characterFeat.delete()
-    #     finally:
-    #         try:
-    #             characterFeat = CharacterFeat.get(
-    #                 source = "fixedFeat",
-    #                 sourceId = pk
-    #             )
-    #             characterFeat.delete()
-    #         finally:
-    #             Characterss = Characters.objects.filter(
-    #                 character = Character.objects.get(request.data['characterId']),
-    #                 classs = Classs.objects.get(request.data['classs'])
-    #             ) #determines how many characterss of a class a character currently has
-    #             characters = Characters.objects.get(pk=pk) #grab the current characters
-    #             characters.classs = Classs.objects.get(request.data['classs']) #set the class to the current class
-    #             characters.charactersDetails = ClassCharacters.objects.get(
-    #                 classs = Classs.objects.get(request.data['classs']),
-    #                 characters = Characterss.len()+1
-    #             ) #the next class characters that the character doesn't have is set as the current details
-    #             if characters.charactersDetails.fixedFeat:
-    #                 CharacterFeat.objects.create(
-    #                     feat = Feat.objects.get(characters.charactersDetails.fixedFeat),
-    #                     character = Character.objects.get(request.data['characterId']),
-    #                     source = "fixedFeat",
-    #                     sourceId = pk,
-    #                     specificOption = None,
-    #                     optionSource = ''
-    #                 )
+        """
+        character = Character.objects.get(pk=pk)
+        if request.data['name']: character.name = request.data['name']
+        if request.data['campaign']: character.campaign = request.data['campaign']
+        if request.data['xp']: character.xp = request.data['xp']
+        if request.data['str']: character.str = request.data['str']
+        if request.data['dex']: character.dex = request.data['dex']
+        if request.data['con']: character.con = request.data['con']
+        if request.data['int']: character.int = request.data['int']
+        if request.data['wis']: character.wis = request.data['wis']
+        if request.data['cha']: character.cha = request.data['cha']
+        if request.data['race']: character.race = Race.objects.get(pk=request.data['race'])
+        character.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+        
+
+
+class CharacterFeatSerializer(serializers.ModelSerializer):
+    class Meta:
+        model= CharacterFeat
+        exclude= ("specificOption","optionSource","character")
+        depth=1
 
 class CharactersSerializer(serializers.ModelSerializer):
     """JSON serializer for characterss
     """
+    learnedFeats = CharacterFeatSerializer(many=True)
+    level_set= LevelSerializer(many=True)
     class Meta:
         model = Character
         fields = ('id', 'xp', 'name','campaign','str', 'dex','con','int','wis','cha', 
-                  'race', 'proficiencies', 'equipment', 'level_set', 'characterfeat_set')
-        depth = 2
+                  'race', 'proficiencies', 'equipment', 'level_set',
+                  'learnedFeats','user')
+
