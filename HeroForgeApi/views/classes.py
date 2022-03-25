@@ -178,5 +178,5 @@ class ClassLevelSerializer(serializers.ModelSerializer):
     class Meta:
         model = ClassLevel
         fields = ("id", "level", "features", "BAB","Fort","Ref","Will",
-                  "fixedFeat","featSet")
+                  "fixedFeat","featSet","classProficiency")
         depth = 2

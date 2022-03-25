@@ -13,3 +13,4 @@ from .classLevel import ClassLevel
 from .equipment import Equipment
 from .equipped import Equipped
 from .proficient import Proficient
+from .proficiencies import Proficiency

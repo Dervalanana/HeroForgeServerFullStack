@@ -20,4 +20,4 @@ class Character(models.Model):
     race = models.ForeignKey(Race, on_delete=models.SET_DEFAULT, default=1)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     proficiencies = models.ManyToManyField(Equipment, through="Proficiency", related_name="Proficiencies")
-    equipment = models.ManyToManyField(Equipment, through="Equipped")
+    equipped = models.ManyToManyField(Equipment, through="Equipped")

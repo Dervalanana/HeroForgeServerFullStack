@@ -39,29 +39,27 @@ class EquipmentView(ViewSet):
         Returns
             Response -- JSON serialized equipment instance
         """
-        if request.auth.user.is_staff:  # only admins can C-UD
-            equipment = Equipment.objects.create(
-                name=request.data['name'],
-            )
-            if request.data['armorType']: equipment.armorType=request.data['armorType']
-            if request.data['armorBonus']: equipment.armorBonus=request.data['armorBonus']
-            if request.data['shieldBonus']: equipment.shieldBonus=request.data['shieldBonus']
-            if request.data['ACP']: equipment.ACP=request.data['ACP']
-            if request.data['ASF']: equipment.ASF=request.data['ASF']
-            if request.data['maxDex']: equipment.maxDex=request.data['maxDex']
-            if request.data['weaponType']: equipment.weaponType=request.data['weaponType']
-            if request.data['weaponUsage']: equipment.weaponUsage=request.data['weaponUsage']
-            if request.data['mediumDamage']: equipment.mediumDamage=request.data['mediumDamage']
-            if request.data['mediumWeight']: equipment.mediumWeight=request.data['mediumWeight']
-            if request.data['finesse']: equipment.finesse=request.data['finesse']
-            if request.data['reach']: equipment.reach=request.data['reach']
-            if request.data['range']: equipment.range=request.data['range']
-            if request.data['damageType']: equipment.damageType=request.data['damageType']
-            if request.data['special']: equipment.special=request.data['special']
-            serializer = EquipmentSerializer(equipment)
-            return Response(serializer.data, status=201)
-        else:
-            return Response({'message': "how did you find this"}, status=403)
+        equipment = Equipment.objects.create(
+            name=request.data['name'],
+        )
+        if request.data['armorType']: equipment.armorType=request.data['armorType']
+        if request.data['armorBonus']: equipment.armorBonus=request.data['armorBonus']
+        if request.data['shieldBonus']: equipment.shieldBonus=request.data['shieldBonus']
+        if request.data['ACP']: equipment.ACP=request.data['ACP']
+        if request.data['ASF']: equipment.ASF=request.data['ASF']
+        if request.data['maxDex']: equipment.maxDex=request.data['maxDex']
+        if request.data['weaponType']: equipment.weaponType=request.data['weaponType']
+        if request.data['weaponUsage']: equipment.weaponUsage=request.data['weaponUsage']
+        if request.data['mediumDamage']: equipment.mediumDamage=request.data['mediumDamage']
+        if request.data['mediumWeight']: equipment.mediumWeight=request.data['mediumWeight']
+        if request.data['finesse']: equipment.finesse=request.data['finesse']
+        if request.data['reach']: equipment.reach=request.data['reach']
+        if request.data['range']: equipment.range=request.data['range']
+        if request.data['damageType']: equipment.damageType=request.data['damageType']
+        if request.data['special']: equipment.special=request.data['special']
+        serializer = EquipmentSerializer(equipment)
+        return Response(serializer.data, status=201)
+        
 
     def destroy(self, request, pk):
         """Handle Delete operations submitted by staff
@@ -94,7 +92,11 @@ class EquipmentView(ViewSet):
             if request.data['weaponUsage']: equipment.weaponUsage=request.data['weaponUsage']
             if request.data['mediumDamage']: equipment.mediumDamage=request.data['mediumDamage']
             if request.data['mediumWeight']: equipment.mediumWeight=request.data['mediumWeight']
-            if request.data['finesse']: equipment.finesse=request.data['finesse']
+            if request.data['finesse']: 
+                if request.data['finesse'] == "true":
+                    equipment.finesse=True
+                if request.data['finesse'] == "false":
+                    equipment.finesse=False
             if request.data['reach']: equipment.reach=request.data['reach']
             if request.data['range']: equipment.range=request.data['range']
             if request.data['damageType']: equipment.damageType=request.data['damageType']
@@ -104,25 +106,26 @@ class EquipmentView(ViewSet):
         else:
             return Response({'message': "how did you find this"}, status=403)
     
-    @action(methods=['POST'], detail=False)
-    def equip(self, request):
+    @action(methods=['POST'], detail=True)
+    def equip(self, request, pk):
         """lets a character equip an item"""
-        if (request.auth.user == Character.objects.get(pk=request.data['characterId']).user or request.auth.user.is_staff):
+        if (request.auth.user == Character.objects.get(pk=pk).user or request.auth.user.is_staff):
             equipped = Equipped.objects.create(
-                character=Character.objects.get(pk=request.data['characterId']),
-                equipment=Equipment.objects.get(pk=request.data['equipmentId'])
+                character=Character.objects.get(pk=pk),
+                equipment=Equipment.objects.get(pk=request.data['equipmentId']),
+                slot=request.data['slot']
                 )
             serializer = EquippedSerializer(equipped)
             return Response(serializer.data)
         else:
             return Response({'message': "how did you find this"}, status=403)
     
-    @action(methods=['GET'], detail=False)
-    def equipped(self, request):
+    @action(methods=['GET'], detail=True)
+    def equipped(self, request, pk):
         """gets a charcter's current equipment"""
-        if (request.auth.user == Character.objects.get(pk=request.data['characterId']).user or request.auth.user.is_staff):
+        if (request.auth.user == Character.objects.get(pk=pk).user or request.auth.user.is_staff):
             equipped = Equipped.objects.filter(
-                character=Character.objects.get(pk=request.data['characterId'])
+                character=Character.objects.get(pk=pk)
                 )
             serializer = EquippedSerializer(equipped, many=True)
             return Response(serializer.data)
@@ -132,18 +135,15 @@ class EquipmentView(ViewSet):
     @action(methods=['DELETE'], detail=True)
     def unequip(self, request, pk):
         """lets a character unequip an item"""
-        if (request.auth.user == Character.objects.get(pk=request.data['characterId']).user or request.auth.user.is_staff):
-            equipped = Equipped.objects.get(pk=pk)
-            equipped.delete()
-            return Response(None, status=status.HTTP_204_NO_CONTENT)
-        else:
-            return Response({'message': "how did you find this"}, status=403)
-        
-    @action(methods=['DELETE'], detail=False)
-    def unequipAll(self, request):
+        equipped = Equipped.objects.get(pk=pk)
+        equipped.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+    
+    @action(methods=['DELETE'], detail=True)
+    def unequip_all(self, request, pk):
         """lets a character unequip all items"""
-        if (request.auth.user == Character.objects.get(pk=request.data['characterId']).user or request.auth.user.is_staff):
-            equipped = Equipped.objects.filter(character=Character.objects.get(pk=request.data['characterId']))
+        if (request.auth.user == Character.objects.get(pk=pk).user or request.auth.user.is_staff):
+            equipped = Equipped.objects.filter(character=Character.objects.get(pk=pk))
             for item in equipped:
                 item.delete()
             return Response(None, status=status.HTTP_204_NO_CONTENT)
@@ -151,11 +151,12 @@ class EquipmentView(ViewSet):
             return Response({'message': "how did you find this"}, status=403)
         
     @action(methods=["POST"], detail=False)
-    def addRaceClassFeatProficiency(self, request):
+    def add_race_class_feat_proficiency(self, request):
         """ adds preset proficiencies to be gained upon picking a race or class"""
-        proficient = Proficient.objects.create(equipment= request.data['equipment'])
-        if request.data['class']: proficient.classLevel = ClassLevel.objects.get(classs=request.data['class'],level=1)
-        if request.data['race']: proficient.race = Race.objects.get(pk = request.data['race'])
+        proficient = Proficient.objects.create(equipment= Equipment.objects.get(pk=request.data['equipment']))
+        if request.data['class'] != "0": proficient.classLevel = ClassLevel.objects.get(classs=request.data['class'],level=1)
+        if request.data['race'] != "0": proficient.race = Race.objects.get(pk = request.data['race'])
+        proficient.save()
         serializer = ProficientSerializer(proficient)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
@@ -172,7 +173,8 @@ class EquippedSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Equipped
-        fields = ('id', 'equipment','character')
+        fields = ('id', 'equipment','character','slot')
+        depth = 1
         
 class ProficientSerializer(serializers.ModelSerializer):
     class Meta:

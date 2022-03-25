@@ -4,13 +4,14 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework import serializers, status
-from django.contrib.auth.models import User
-from HeroForgeApi.models import Level, Character, Level, CharacterFeat, Race, ClassSkill
-from HeroForgeApi.models.classLevel import ClassLevel
-from HeroForgeApi.models.classs import Classs
+from HeroForgeApi.models import Level, Character, Level, CharacterFeat, Race
+from HeroForgeApi.models.equipment import Equipment
 from HeroForgeApi.models.feat import Feat
 from HeroForgeApi.models.levelSkill import LevelSkill
+from HeroForgeApi.models.proficiencies import Proficiency
+from HeroForgeApi.models.proficient import Proficient
 from HeroForgeApi.models.skill import Skill
+from HeroForgeApi.views.equipment import EquipmentSerializer, EquippedSerializer
 from HeroForgeApi.views.levels import LevelSerializer
 
 
@@ -102,7 +103,27 @@ class CharactersView(ViewSet):
         if request.data['int']: character.int = request.data['int']
         if request.data['wis']: character.wis = request.data['wis']
         if request.data['cha']: character.cha = request.data['cha']
-        if request.data['race']: character.race = Race.objects.get(pk=request.data['race'])
+        if request.data['race']: 
+            character.race = Race.objects.get(pk=request.data['race']['id'])
+            try:
+                proficiencies = Proficiency.objects.filter(
+                    source="race", sourceId=request.data['race'])
+                for proficiency in proficiencies:
+                    proficiency.delete()
+            except:
+                pass
+            try:
+                proficiencies = Proficient.objects.filter(race = request.data['race']['id'])
+                for proficiency in proficiencies:
+                    Proficiency.objects.create(
+                        source="race",
+                        sourceId=request.data['race']['id'],
+                        equipment=Equipment.objects.get(pk=proficiency.equipment.id),
+                        character=Character.objects.get(
+                            pk=request.data['id'])
+                    )
+            except Proficient.DoesNotExist as exception:
+                pass
         character.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
         
@@ -119,9 +140,11 @@ class CharactersSerializer(serializers.ModelSerializer):
     """
     learnedFeats = CharacterFeatSerializer(many=True)
     level_set= LevelSerializer(many=True)
+    equipment= EquippedSerializer(many=True)
     class Meta:
         model = Character
         fields = ('id', 'xp', 'name','campaign','str', 'dex','con','int','wis','cha', 
                   'race', 'proficiencies', 'equipment', 'level_set',
                   'learnedFeats','user')
+        depth=1
 

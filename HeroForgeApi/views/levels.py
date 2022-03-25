@@ -4,11 +4,12 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework import serializers, status
-from HeroForgeApi.models import Level, Character, Level, CharacterFeat
+from HeroForgeApi.models import Level, Character, Level, CharacterFeat, Proficiency, Equipment
 from HeroForgeApi.models.classLevel import ClassLevel
 from HeroForgeApi.models.classs import Classs
 from HeroForgeApi.models.feat import Feat
 from HeroForgeApi.models.levelSkill import LevelSkill
+from HeroForgeApi.models.proficient import Proficient
 from HeroForgeApi.models.skill import Skill
 from HeroForgeApi.views.classes import ClassLevelSerializer, ClasssSerializer
 
@@ -106,37 +107,56 @@ class LevelsView(ViewSet):
             characterFeat.delete()
         except:
             pass
+        try:
+            characterFeat = CharacterFeat.objects.get(
+                source="fixedFeat", sourceId=pk)
+            characterFeat.delete()
+        except:
+            pass
+        try:
+            proficiencies = Proficiency.objects.filter(
+                source="classs", sourceId=pk)
+            for proficiency in proficiencies:
+                proficiency.delete()
+        except:
+            pass
         finally:
+            Levels = Level.objects.filter(
+                classs=request.data['classs'],
+                character=request.data['characterId'],
+            )  # determines how many levels of a class a character currently has
+            level = Level.objects.get(pk=pk)  # grab the current level
+            # set the class to the current class
+            level.classs = Classs.objects.get(pk=request.data['classs'])
+            level.levelDetails = ClassLevel.objects.get(
+                classs=Classs.objects.get(pk=request.data['classs']),
+                level=len(Levels)+1
+            )  # the next class level that the character doesn't have is set as the current details
+            if level.levelDetails.fixedFeat:
+                CharacterFeat.objects.create(
+                    feat=Feat.objects.get(level.levelDetails.fixedFeat),
+                    character=Character.objects.get(
+                        pk=request.data['characterId']),
+                    source="fixedFeat",
+                    sourceId=pk,
+                    specificOption=None,
+                    optionSource=''
+                )
             try:
-                characterFeat = CharacterFeat.objects.get(
-                    source="fixedFeat", sourceId=pk)
-                characterFeat.delete()
+                proficiencies = Proficient.objects.filter(classLevel=ClassLevel.objects.get(pk=level.levelDetails.id))
+                for proficiency in proficiencies:
+                    Proficiency.objects.create(
+                        source="classs",
+                        sourceId=pk,
+                        equipment=Equipment.objects.get(pk=proficiency.equipment.id),
+                        character=Character.objects.get(
+                            pk=request.data['characterId'])
+                    )
             except:
                 pass
             finally:
-                Levels = Level.objects.filter(
-                    classs=request.data['classs'],
-                    character=request.data['characterId'],
-                )  # determines how many levels of a class a character currently has
-                level = Level.objects.get(pk=pk)  # grab the current level
-                # set the class to the current class
-                level.classs = Classs.objects.get(pk=request.data['classs'])
-                level.levelDetails = ClassLevel.objects.get(
-                    classs=Classs.objects.get(pk=request.data['classs']),
-                    level=len(Levels)+1
-                )  # the next class level that the character doesn't have is set as the current details
-                if level.levelDetails.fixedFeat:
-                    CharacterFeat.objects.create(
-                        feat=Feat.objects.get(level.levelDetails.fixedFeat),
-                        character=Character.objects.get(
-                            request.data['characterId']),
-                        source="fixedFeat",
-                        sourceId=pk,
-                        specificOption=None,
-                        optionSource=''
-                    )
                 level.save()
-        return Response(None, status=status.HTTP_204_NO_CONTENT)
+            return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 
 class LevelSerializer(serializers.ModelSerializer):
